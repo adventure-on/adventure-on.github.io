@@ -1,5 +1,20 @@
 
 /**
+ * Scrive il contenuto incasellandolo in una cella che occupa 12 colonne e una riga a sé stante.
+ */
+function writeRowLarge(content) {
+    document.write(
+          '<div class="row">'
+        + '<div class="col-12">'
+	);
+	document.write(content);
+	document.write(
+		  '</div>'
+        + '</div>'
+	);
+}
+
+/**
  * Funzione che scrive il testo di un paragrafo, dato il codice.
  * Si suppone ovviamente che il codice esista e sia già stato verificato, e che a tale
  * codice corrisponda un paragrafo dell'array "paragraphs".
@@ -12,26 +27,10 @@ function writeParagraphText(code) {
     text = text.replace(new RegExp('\r?\n','g'), "<br />"); // Sostituisco i NEW LINE con tag html BREAK LINE (<br />)
     text = text.replace(new RegExp('-p-','g'), "</p><p>"); // Nuovo paragrafo
 
-    // Scrivo tutto
-    document.write(
-        '<div class="row">'
-        + '<div class="col-12">'
-        + '<p>'
-        + text
-        + '</p>'
-        + '</div>'
-        + '</div>'
-    );
+	writeRowLarge("<p>" + text + "</p>");
 }
 
 function writeParagraphErrorMessage() {
-    document.write(
-        '<div class="row">'
-        + '<div class="col-12">'
-        + '<p>'
-        + "La pagina non è stata trovata.<br />Prova a ripartire dal file <code>index.html</code>"
-        + '</p>'
-        + '</div>'
-        + '</div>'
-    );
+	writeRowLarge('<p>La pagina che stavi cercando non è stata trovata.</p>');
+	writeRowLarge('<a href="../index.html" class="btn btn-primary">Torna all\'inizio</a>');
 }

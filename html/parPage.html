@@ -38,7 +38,7 @@
                     // Estraggo il codice dall'URL
                     const code = urlParams.get('code');
 					// Verifica
-					if (code == null || code == "") {
+					if (code == null || code == "" || unknownCode(code)) {
 						// Segnalo l'errore.
 						writeErrorPage();
 					} else {
