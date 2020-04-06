@@ -1,0 +1,20 @@
+
+/* Margini dei titoli */
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Rendo UPPERCASE i codici */
+input.code:valid {
+    text-transform: uppercase;
+}
+
+/* Bottone di start */
+.btn-start {
+	font-size: 30px;
+	border-radius: 10px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}

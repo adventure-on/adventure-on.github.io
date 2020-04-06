@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+
+        <!-- Titolo -->
+        <title>A Very Pasquetta Adventure</title>
+
+        <!-- Stile personalizzato -->
+        <link rel="stylesheet" type="text/css" href="../css/custom.style.css">
+
+        <!-- Javascript per la creazione della pagina -->
+        <script type="text/javascript" src="../js/database.js"></script> <!-- Caricamento di tutti i paragrafi -->
+        <script type="text/javascript" src="../js/pager.js"></script> <!-- Impaginatore -->
+        <script type="text/javascript" src="../js/header.js"></script> <!-- Header -->
+        <script type="text/javascript" src="../js/paragraph.js"></script> <!-- Testo -->
+        <script type="text/javascript" src="../js/footer_form.js"></script> <!-- Footer con form -->
+        <script type="text/javascript" src="../js/config.js"></script> <!-- Configurazioni -->
+
+    </head>
+    <body>
+        <div class="container">
+
+            <script type="text/javascript">
+                // Estraggo le configurazioni dell'URL
+                const urlParams = new URLSearchParams(window.location.search);
+				// Verifica
+                if (urlParams == null || urlParams == "") {
+                    // Segnalo l'errore.
+                    writeErrorPage();
+                } else {
+                    // Estraggo il codice dall'URL
+                    const code = urlParams.get('code');
+					// Verifica
+					if (code == null || code == "") {
+						// Segnalo l'errore.
+						writeErrorPage();
+					} else {
+	                    // Compongo la pagina
+	                    writePage(code);
+					}
+                }
+            </script>
+
+        </div>
+    </body>
+</html>
