@@ -4,7 +4,7 @@
  * Se non esiste, viene visualizzato un messaggio informativo.
  */
 function goToParagraph(code) {
-    window.location.replace(buildPageURL(code));
+    window.location.href = (buildPageURL(code));
 }
 
 /**
@@ -22,7 +22,7 @@ function onFormGo(originalCode) {
         // Decidere se si vuole avvisare che il codice non funziona
         //window.alert("Mi dispiace, nessun paragrafo corrisponde al codice <" + parCode + ">.");
 		// Forzo la pagina a rimanere qui
-		window.location.replace(buildPageURL(originalCode));
+		window.location.href = (buildPageURL(originalCode));
     } else {
 		//window.alert("Ok, sto per invocare\ngoToParagraph(" + parCode + ");");
         goToParagraph(parCode);
@@ -43,7 +43,7 @@ function writeFormFooter(originalCode) {
                     + '<div class="form-group mx-sm-3 mb-2">'
                         + '<input type="text" class="form-control code" id="inputcode" name="inputcode" maxlength="4" placeholder="Prossimo paragrafo" required>'
                     + '</div>'
-                    + '<button onClick=\"onFormGo(\'' + originalCode + '\')\" class=\"btn btn-primary mb-2\">Go</button>'
+                    + '<button onClick=\"onFormGo(\'' + originalCode + '\')\" class=\"btn btn-primary ml-2 mb-2\">Go</button>'
                 + '</div>'
             + '</div>'
         + '</div>'
