@@ -4,11 +4,11 @@ var paragraphs = {};
 // Impostazione dei vari paragrafi
 // Alcune note riguardo alle chiavi: sono sempre MAIUSCOLE
 
-paragraphs["0000"] = "Le Seychelles sono un arcipelago di 115 isole nell'oceano Indiano. La bandiera è composta da 5 bande oblique che convergono verso sinistra, simbolo di una nazione giovane che si muove verso il futuro. Il blu rappresenta il mare e il cielo, il giallo il sole, il rosso il popolo, il bianco la giustizia sociale e il verde l'armonia con la natura. Pensate, il piatto tipico è il pipistrello.\n\nOk ora digita il codice <code>0012</code>";
+paragraphs["0000"] = prdBadge() + smmBadge() + "-p-Le Seychelles sono un arcipelago di 115 isole nell'oceano Indiano. La bandiera è composta da 5 bande oblique che convergono verso sinistra, simbolo di una nazione giovane che si muove verso il futuro. Il blu rappresenta il mare e il cielo, il giallo il sole, il rosso il popolo, il bianco la giustizia sociale e il verde l'armonia con la natura. Pensate, il piatto tipico è il pipistrello.\n\nOk ora digita il codice <code>0012</code>";
 
 paragraphs["0012"] = "Ecco qui un bel paragrafo interessante.\nPosso fare il <b>grassetto</b> e anche il <i>corsivo</i>.\n\nImmagina che ci sia una storiella e che stia parlando del rubino. Il collezionista lo raccoglie e scopre il codice <code>RUBY</code>.\n\nAltrimenti risolvendo la prova puoi ottenere il codice del capitolo <code>1784</code>.";
 
-paragraphs["RUBY"] = "Questo è il paragrafo che sblocchi trovando il rubino.\nEvviva.\nGrazie ad esso, scopri che la strada più breve per risolvere la prova è digitare il codice <code>2903</code>.\n\nOra torna pure al paragrafo <code>0012</code>";
+paragraphs["RUBY"] = scnBadge() + "-p-Questo è il paragrafo che sblocchi trovando il rubino.\nEvviva.\nGrazie ad esso, scopri che la strada più breve per risolvere la prova è digitare il codice <code>2903</code>.\n\nOra torna pure al paragrafo <code>0012</code>";
 
 paragraphs["1784"] = "Bla bla tante parole bla bla.\nEcco, l'ultima cosa carina che ti faccio vedere:-p-<img src=\"https://i0.wp.com/frasissime.com/wp-content/uploads/2019/09/immagini-con-frasi-sul-karma.jpg?fit=1024%2C576&ssl=1\" class=\"img-thumbnail img-responsive\" width=\"300\">-p-Bene, ora divertiti pure a scoprire quali altri codici di quattro lettere ho già preparato.";
 
