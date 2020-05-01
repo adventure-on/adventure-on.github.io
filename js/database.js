@@ -145,15 +145,68 @@ paragraphs['0572'] = smmBadge() + prdBadge() + '-p-' + quote('Il pesce era fresc
 
 + 'Quando avete preparato il menù inviatelo al bot <code>produttore_GameBot</code>.';
 
+//////////////
+// I FISICI //
+//////////////
 
+paragraphs['BOOM'] = quote('Prego, Signori, da questa parte. Non spingete. Il paesaggio ha un effetto tranquillante: catene montuose, miti collinette boschive, un laghetto naturale. L’ambiente locale non ha nessuna importanza e viene menzionato solo per amore di precisione, dato che non abbandoneremo mai la villa del Manicomio (ops… beh, ormai l’abbiamo usata quella parola). Per quel che riguarda la villa, un tempo vi erano sistemati tutti i pazienti della fondazione dell’impresa, la medichessa e dottoressa honoris causa, signorina Matilde Von Zahn: aristocratici rimbecilliti, statisti arteriosclerotici, milionari deficenti, scrittori schizofrenici, grandi industriali maniaco depressivi, eccetera eccetera.')
++ 'Benvenut* all’interno di una delle più suggestive ehm… residenze… della Svizzera, la villa di Mathilda Von Zahn!<br>All’interno di questo splendido edificio potrete trovare alcuni dei più geniali uomini dei nostri tempi, nonché alcune splendide opere, conservate nella Galleria d’Arte della dottoressa, il cui accesso vi è stato permesso in via del tutto eccezionale.-p-'
++ 'Se desiderate visitare la Galleria d’Arte di Matilda Von Zahn, andate al capitolo <code>9WPQ</code>.<br>'
++ 'Se desiderate invece fare un giro nei dintorni alla ricerca di qualche curioso ospite, andare al capitolo <code>9786</code>.';
 
+paragraphs['9WPQ'] = prdBadge() + smmBadge() + '-p-' + quote('Mio padre, il consigliere Augusto Von Zahnd abitava in questa villa, prima che io lo trasformassi in un sanatorio.')
++ 'Per poter svolgere questa prova, dovete aprire l’app “<i>Google Arts & Culture</i>”. All’interno dell’App dovete scaricare la funzione “<i>Pocket Gallery</i>” sul vostro cellulare. All’interno dei possibili percorsi visitabili all’interno della Pocket Galley, scricare il percorso “<i>The Art of Colour</i>” e seguite le indicazioni dell’App per caricare la mostra.-p-'
++ 'Questa splendida mostra è stata realizzata anche grazie all’aiuto della nostra Egregia Dottoressa, che ha saputo consigliare con giudizio… il signor MoMa.<br>All’interno di questa mostra, troverete quattro stanze tematiche, divise in quattro colori. Per comodità, le chiameremo in questo modo:'
++ '<ul><li>Rosso</li>'
++ '<li>Blu e Verde</li>'
++ '<li>Giallo</li>'
++ '<li>Nero e Bianco</li>'
++ '</ul>-p-'
++ 'La Dottoressa adora cercare i dettagli più fini. La sfida è dunque la seguente: sapete trovare i seguenti elementi all’interno della mostra? Ne troverete due in ognuna delle quattro stanze.'
++ '<ol>'
++ '<li>Un anello sul dito mignolo</li>'
++ '<li>Una T nera</li>'
++ '<li>AGO</li>'
++ '<li>Un campanile</li>'
++ '<li>Un gallo</li>'
++ '<li>Cosimo de Medici</li>'
++ '<li>La Risa</li>'
++ '<li>Una stella</li>'
++ '</ol>-p-'
++ 'Quando avrete trovato tutti quanti gli elementi, inviate al Produttore il codice che si crea inserendo, nell’ordine, per ogni elemento, l’iniziale della stanza in cui si trova.<br>'
++ '<i>Esempio:</i> se i primi due elementi fossero nella stanza rossa, i secondi in quella blu e verde, i terzi in quella gialla e i quarti in quella nera e bianca, il codice finale da inviare al bot sarebbe <b>RRBBGGNN</b>';
 
+paragraphs['BE7E'] = smmBadge() + '-p-'
++ quote('Venga, signora Rose. Bisogna che si calmi, ecco tutto.')
++ 'Un buon personale sanitario deve sempre tenere monitorato uno degli organi più importanti, soprattutto nei pazienti che tendono ad agitarsi molto: il CUORE.<br>Trovate, per terra, questo strano foglio. Cosa ci farà per terra?';
+// TODO Immagine ECG
 
+paragraphs['9786'] = smmBadge() + '-p-' + quote('Manca citazione')
++ 'Quest\'ala dell\'edificio non sembra essere troppo frequentata...-p-'
++ 'Per puro caso, scorgete due figure immobili attorno ad un tavolino, sul quale è posta una strana scacchiera. Sembra stiano facendo un qualche gioco di cui faticate a comprendere le regole... In ogni caso, lo potete vedere nell\'immagine sottostante.-p-'
++ 'Potrebbe essere interessante parlare con loro, ma a quale dei due approcciarsi per primo?<br>'
++ 'Quello a sinistra, sotto la finestra, sembra intento a gustare una mela. Fra un morso e un altro, si diverte a lasciar cadere piccoli oggetti dalla forma indefinita.<br>'
++ 'Quello a destra siede invece su una poltrona, al cui fianco è appoggiato un violino. Il suo sguardo sembra fissare il vuoto, e mostra ben poco interesse per il gioco.-p-'
++ 'Dopo aver riflettuto un poco su come procedere, concordate che forse non è così rilevante. In fondo, sapete bene che ognuno di loro vi dirà le stesse identiche cose, e qualunque cosa scegliate otterrete gli stessi identici risultati.-p-'
++ 'Se volete parlare con la figura di sinistra, andate al Paragrafo <code>T4BG</code>.<br>'
++ 'Se volete parlare con la figura di destra, andate al Paragrafo <code>R8Z0</code>.';
+// TODO Immagine griglia
 
+paragraphs['T4BG'] = 'Newton';
+// TODO Immagine USA
 
+paragraphs['R8Z0'] = 'Einstein';
+// TODO Immagine URSS
 
+paragraphs['5395'] = quote('- È già buio.<br>- Fa notte presto, ormai.<br>- Aspetta che accendo la luce.</br>- Non ancora. Vieni qui da me.')
++ '';
+// TODO Prova
 
+////////////////////
+// LE MOSCHE ///
+///////////////////
 
+paragraphs['BZZZ'] = '';
 
 
 //////////////////
