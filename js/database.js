@@ -206,8 +206,38 @@ paragraphs['5395'] = quote('- È già buio.<br>- Fa notte presto, ormai.<br>- As
 // LE MOSCHE ///
 ///////////////////
 
-paragraphs['BZZZ'] = '';
+paragraphs['BZZZ'] = quote('Non avete nulla da temere. Oggi è la festa dei Morti. Quei gridi segnano l’inizio della cerimonia. Sono quindici anni che in questa giornata i morti defunti tornano dall’Oltretomba per farci compagnia. Camminano nelle nostre vie, si siedono alle nostre tavole, si addormentano nei nostri letti.')
++ 'Siate i benvenut* ad Argo. Siamo estremamente felici che abbiate deciso di farci visita proprio oggi, poiché oggi si celebra la Festa dei Morti, la ricorrenza più importante dell’anno. Non fatevi annoiare dalle mosche che girano, sono un po’ fastidiose, ma sono innocue. Desiderate far visita al Tempio Sacro oppure preferite andare nella Piazza del Mercato?-p-'
++ 'Per andare al Tempio Sacro, vai al Paragrafo <code>RYXM</code>.<br>'
++ 'Per andare nella Piazza del Mercato, vai al Paragrafo <code>F3X9</code>.';
 
+paragraphs['F3X9'] = quote('Sei bella Elettra, più di me. Ma i miei baci ti faranno invecchiare.') + '';
+paragraphs['J216'] = quote('Mi rotolerò sul loro ventre e sul loro petto come un torrente sui ciottoli.') + '';
+paragraphs['4432'] = quote('Prenderò sulle ginocchia la sua testa pallida, accarezzerò i suoi capelli.') + '';
+
+paragraphs['3373'] = smmBadge() + '-p-IL RITUALE'; // TODO senza prova
+
+paragraphs['RYXM'] = smmBadge() + '-p-' + quote('Ah, che viaggio piacevole. E che bella fu la vostra ispirazione di venire qui, quando in Grecia ci sono più di cinquecento città con vini buoni, alberghi accoglienti e vie affollate. ‘Sta gente di montagna pare che non abbia mai visto un turista, dappertutto gli stessi gridi di spavento, lo stesso fuggi-fuggi. Puah.')
++ 'La piazza del mercato è decisamente sovraffollata, ma di mosche, non di uomini. Non si riesce praticamente a vedere alcunché. Difficile riuscire a trovare tesori rari all’interno di questo sciame di mosche. Tuttavia, se aveste la pazienza di soffermarvi per un momento con più attenzione, notereste una cosa importante: che tutte queste mosche sono accoppiate tra loro, tranne due, diverse da tutte le altre. Sapreste individuare quali sono?-p-'
++ 'Accedete alla cartella <code>XXXX</code>.-p-' // TODO CARTELLA
++ 'All’interno della cartella troverete una serie di immagini di mosche. Di ogni immagine esiste un’altra copia all’interno della cartella, con l’eccezione di due. Combinate i codici delle due immagini (seguendo l’ordine alfabetico) e otterrete il paragrafo per continuare la vostra ricerca.';
+
+paragraphs['E9P8'] = 'MOSCHE INNAMORATE'; // TODO paragrafo melanconico e stupido
+
+paragraphs['HD44'] = prdBadge() + smmBadge() + '-p-'
++ quote('Com’è frivolo il popolo di Argo. E com’è vicino al mio cuore!')
++ 'Ovunque vi giriate non vedete altro che gente povera, malata, disperata, vestita di stracci. Le mosche sembrano aver portato con sé non solo la miseria, ma anche la malattia. Ma di che malattia si tratta esattamente? Le manifestazioni sono tante, e molto strane. Sembrerebbe di vedere tante diverse malattie in tutti questi soggetti. Magari c’è pure qualche falso invalido.-p-'
++ '' // TODO Immagini morte
++ 'Associate ad ogni raffigurazione la corrispondente malattia tra le seguenti: <b>Febbre gialla</b>, <b>Tubercolosi</b>, <b>Emorragia</b>, <b>Bipolarismo</b>, <b>Gotta</b>, <b>Colera</b>, <b>Peste bubbonica</b>, <b>Sifilide</b>, <b>Lebbra</b>, <b>Depressione</b>. Se aveste dei dubbi, potete tranquillamente consultare il Manuale delle Malattie all’interno del materiale del Drammaturgo. Una volta che avete associato ad ogni quadro una malattia, inviate al bot del produttore il codice risultante dall’iniziale della malattia.-p-'
++ '<i>Esempio:</i> se i quadri fossero disposti esattamente come la lista delle malattie, il codice risultante sarebbe <b>FTEBGCPSLD</b>.';
+
+paragraphs['2414'] = 'Prima metà oggetto finale: <code>BV--</code>.';
+
+paragraphs['C99K'] = 'Seconda metà oggetto finale: <code>--8V</code>.';
+
+paragraphs['BV8V'] = 'Evvai! Raccogli la mela del pedagogo.';
+
+paragraphs['MELA'] = scnBadge() + 'YESSS 1000 punti!';
 
 //////////////////
 
