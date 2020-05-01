@@ -30,5 +30,5 @@ function scnBadge() {
  * bot "produttore_GameBot".
  */
 function prdBadge() {
-    return getBadge("@produttore_GameBot", "primary");
+    return getBadge("Produttore", "primary");
 }
