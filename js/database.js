@@ -40,7 +40,7 @@ paragraphs['0100'] = smmBadge() + '-p-Voilà! Non stareste leggendo questo parag
 + 'Andate al paragrafo <code>1000</code>.';
 
 
-paragraphs['1000'] = 'Bene, sono quasi finito (io Tutorial, intendo).<br>Ci manca soltanto l’ultimo ruolo.-p-'
+paragraphs['1000'] = 'Bene, sono quasi finito (io <i>Tutorial</i>, intendo).<br>Ci manca soltanto l’ultimo ruolo.-p-'
 + 'Durante il gioco attraverserete una grande varietà di ambienti e situazioni, tali che sarebbe davvero un peccato non potersi portare a casa qualche ricordino… Magari qualcosa scovato a metà di una frase, fra una virgola e un apostrofo, un piccolo tesoro che passa inosservato alla massa e che solo alcuni individui, dotati di una sensibilità particolare, sono in grado di riconoscere e apprezzare.-p-'
 + 'Beh, sembra proprio la descrizione del quarto componente della vostra squadra, no? E infatti…-p-'
 + 'Il ruolo di <b>Scenografo</b> richiede una grande attenzione ai dettagli: il giocatore o la giocatrice che lo impersonano hanno la possibilità, in ciascun Paragrafo, di raccogliere gli oggetti citati nella descrizione del Paragrafo. Questi oggetti hanno poi due funzionalità principali:'
@@ -63,7 +63,18 @@ paragraphs['1111'] = 'Ecco, qui le n-nostre strade si separano.<br>Come dite?<br
 + 'In ogni caso, io ora vi devo lasciare. Voi però non muovetevi da qui: <b>dovete attendere che gli Organizzatori diano il VIA ufficiale</b>; a quel punto conoscerete anche il codice del paragrafo che dà inizio all’intero gioco.-p-'
 + 'Spero di rivedervi presto.-p-'
 + 'Per sempre vostro,-p-'
-+ 'Tutorial';
++ 'il <i>Tutorial</i>.';
+
+paragraphs['HOME'] = 'Benvenuti nel mondo dell’<i>Avventura Dadosa</i>. Questo è il Paragrafo <code>HOME</code>, il luogo dove ha inizio la vostra storia. Durante questo viaggio avrai occasione di visitare i luoghi dove si sono svolte alcune delle più belle storie dei <i>Dadi Truccati</i> degli ultimi anni. Leggete attentamente le parole seguenti per essere sicuri di non perdervi alcuni passaggi fondamentali.-p-'
++ 'Da questo capitolo avrai la possibilità di accedere a sei diversi <b>Mondi</b>. All’interno di ognuno di questi mondi troverete una serie di capitoli e prove differenti che testeranno la vostra prontezza, il vostro acume, la vostra capacità di fare squadra e la voglia di mettervi in gioco. Ognuno di questi mondi ha una <b>Porta d’Ingresso</b> a cui potrete giungere tramite le coordinate scritte al termine di questo paragrafo. Oltre la Porta d’Ingresso troverete una serie di prove. Il vostro obiettivo sarà quello di recuperare da ogni Mondo un <b>Oggetto Speciale</b>, fortemente legato alla storia della Compagnia: ciò sarà possibile solamente quando avrete risolto tutte le sfide contenute all’interno di quel Mondo.-p-'
++ 'Questa caccia al tesoro, oltre che un’avventura, è anche una gara.<br>Per vincere questa gara, dovrete cercare di ottenere il maggior numero di punti possibili. Essi potranno essere ottenuti in quattro diversi modi.'
++ '<ol><li>Ogni Oggetto Speciale ha un valore di 1000 punti.</li>'
++ '<li>Durante l’avventura, grazie al potere dello Scenografo, avrete la possibilità di raccogliere oggetti che vi daranno dei punti extra. Il valore di ogni oggetto sarà sommato al punteggio della Squadra.</li>'
++ '<li>All’interno di alcuni paragrafi ci sarà la possibilità di svolgere alcune prove speciali, singole o di squadra, che potranno essere sbloccate grazie al potere del Social Media Manager. Ognuna di queste prove darà dei punti, specificati di volta in volta, che saranno sommati al punteggio totale della squadra.</li>'
++ '<li>Ogni prova svolta correttamente vi darà un punteggio segreto, che sarà sommato al punteggio della vostra squadra.</li></ol>-p-'
++ 'Il modo con cui dovrete svolgere le prove sarà specificato di volta in volta all’interno di ogni Paragrafo.<br>In alcuni casi sarà necessario inviare una soluzione al bot del Produttore, mentre in altri casi la soluzione degli enigmi sarà la chiave per sbloccare nuovi Paragrafi: tutto ciò sarà comunque spiegato all’interno di ogni singola prova.-p-'
++ 'Siete pronti? E allora diamo ufficialmente il via alla Competizione! Ecco le chiavi dei sei mondi:';
+// TODO Chiavi dei sei mondi
 
 
 
