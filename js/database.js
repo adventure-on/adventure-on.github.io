@@ -65,17 +65,26 @@ paragraphs['1111'] = 'Ecco, qui le n-nostre strade si separano.<br>Come dite?<br
 + 'Per sempre vostro,-p-'
 + 'il <i>Tutorial</i>.';
 
-paragraphs['HOME'] = 'Benvenuti nel mondo dell’<i>Avventura Dadosa</i>. Questo è il Paragrafo <code>HOME</code>, il luogo dove ha inizio la vostra storia. Durante questo viaggio avrai occasione di visitare i luoghi dove si sono svolte alcune delle più belle storie dei <i>Dadi Truccati</i> degli ultimi anni. Leggete attentamente le parole seguenti per essere sicuri di non perdervi alcuni passaggi fondamentali.-p-'
+paragraphs['HOME'] = 'Benvenuti e benvenute nel mondo dell’<i>Avventura Dadosa</i>.<br>Questo è il Paragrafo <code>HOME</code>, il luogo dove ha inizio la vostra storia. Durante questo viaggio avrai occasione di visitare i luoghi dove si sono svolte alcune delle più belle storie dei <i>Dadi Truccati</i> degli ultimi anni. Leggete attentamente le parole seguenti per essere sicuri di non perdervi alcuni passaggi fondamentali.-p-'
 + 'Da questo capitolo avrai la possibilità di accedere a sei diversi <b>Mondi</b>. All’interno di ognuno di questi mondi troverete una serie di capitoli e prove differenti che testeranno la vostra prontezza, il vostro acume, la vostra capacità di fare squadra e la voglia di mettervi in gioco. Ognuno di questi mondi ha una <b>Porta d’Ingresso</b> a cui potrete giungere tramite le coordinate scritte al termine di questo paragrafo. Oltre la Porta d’Ingresso troverete una serie di prove. Il vostro obiettivo sarà quello di recuperare da ogni Mondo un <b>Oggetto Speciale</b>, fortemente legato alla storia della Compagnia: ciò sarà possibile solamente quando avrete risolto tutte le sfide contenute all’interno di quel Mondo.-p-'
 + 'Questa caccia al tesoro, oltre che un’avventura, è anche una gara.<br>Per vincere questa gara, dovrete cercare di ottenere il maggior numero di punti possibili. Essi potranno essere ottenuti in quattro diversi modi.'
-+ '<ol><li>Ogni Oggetto Speciale ha un valore di 1000 punti.</li>'
-+ '<li>Durante l’avventura, grazie al potere dello Scenografo, avrete la possibilità di raccogliere oggetti che vi daranno dei punti extra. Il valore di ogni oggetto sarà sommato al punteggio della Squadra.</li>'
-+ '<li>All’interno di alcuni paragrafi ci sarà la possibilità di svolgere alcune prove speciali, singole o di squadra, che potranno essere sbloccate grazie al potere del Social Media Manager. Ognuna di queste prove darà dei punti, specificati di volta in volta, che saranno sommati al punteggio totale della squadra.</li>'
-+ '<li>Ogni prova svolta correttamente vi darà un punteggio segreto, che sarà sommato al punteggio della vostra squadra.</li></ol>-p-'
++ '<ol><li>Ogni <b>Oggetto Speciale</b> ha un valore di 1000 punti.</li>'
++ '<li>Durante l’avventura, grazie al potere dello Scenografo, avrete la possibilità di <b>raccogliere oggetti</b> che vi daranno dei punti extra. Il valore di ogni oggetto sarà sommato al punteggio della Squadra.</li>'
++ '<li>All’interno di alcuni paragrafi ci sarà la possibilità di svolgere alcune <b>prove speciali</b>, singole o di squadra, che potranno essere sbloccate grazie al potere del Social Media Manager. Ognuna di queste prove darà dei punti, specificati di volta in volta, che saranno sommati al punteggio totale della squadra.</li>'
++ '<li>Ogni prova svolta correttamente vi darà un <b>punteggio segreto</b>, che sarà sommato al punteggio della vostra squadra.</li></ol>-p-'
 + 'Il modo con cui dovrete svolgere le prove sarà specificato di volta in volta all’interno di ogni Paragrafo.<br>In alcuni casi sarà necessario inviare una soluzione al bot del Produttore, mentre in altri casi la soluzione degli enigmi sarà la chiave per sbloccare nuovi Paragrafi: tutto ciò sarà comunque spiegato all’interno di ogni singola prova.-p-'
-+ 'Siete pronti? E allora diamo ufficialmente il via alla Competizione! Ecco le chiavi dei sei mondi:';
++ 'Siete pronti?<br>E allora diamo ufficialmente il via alla Competizione!-p-Ecco le chiavi dei sei mondi:';
 // TODO Chiavi dei sei mondi
 
+//////////////////////
+// CANTATRICE CALVA //
+//////////////////////
+
+paragraphs['1133'] = quote('Ti trovi catapultato in un tipico salotto inglese. Interno, borghese, inglese, con poltrone inglesi. Serata inglese. Il signor Smith, inglese, nella sua poltrona, inglese, fuma la sua pipa, inglese. Legge un giornale, inglese, seduto accanto al fuoco, inglese.')
++ 'Improvvisamente, un suono. Inglese. Chi suona alla porta?-p-'
++ 'In televisione stanno trasmettendo un telegiornale, inglese. In cucina senti il fischio della pentola a pressione. Che siano pronte le patate inglesi?-p-'
++ 'Se volete restare a guardare il TG inglese, vai al Paragrafo <code>XXXX</code>.<br>'
++ 'Se volete andare in cucina a controllare le patate, vai al Paragrafo <code>XXXX</code>.';
 
 
 
