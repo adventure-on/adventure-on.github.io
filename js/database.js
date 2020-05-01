@@ -73,18 +73,86 @@ paragraphs['HOME'] = 'Benvenuti e benvenute nel mondo dell’<i>Avventura Dadosa
 + '<li>All’interno di alcuni paragrafi ci sarà la possibilità di svolgere alcune <b>prove speciali</b>, singole o di squadra, che potranno essere sbloccate grazie al potere del Social Media Manager. Ognuna di queste prove darà dei punti, specificati di volta in volta, che saranno sommati al punteggio totale della squadra.</li>'
 + '<li>Ogni prova svolta correttamente vi darà un <b>punteggio segreto</b>, che sarà sommato al punteggio della vostra squadra.</li></ol>-p-'
 + 'Il modo con cui dovrete svolgere le prove sarà specificato di volta in volta all’interno di ogni Paragrafo.<br>In alcuni casi sarà necessario inviare una soluzione al bot del Produttore, mentre in altri casi la soluzione degli enigmi sarà la chiave per sbloccare nuovi Paragrafi: tutto ciò sarà comunque spiegato all’interno di ogni singola prova.-p-'
-+ 'Siete pronti?<br>E allora diamo ufficialmente il via alla Competizione!-p-Ecco le chiavi dei sei mondi:';
++ 'Siete pronti?<br>E allora diamo ufficialmente il via alla Competizione!-p-Ecco le chiavi dei sei mondi:'
++ '<ol>'
++ '<li><b>La Cantatrice Calva</b>   <code>AAAH</code></li>'
++ '<li><b>I Fisici</b>              <code>BOOM</code></li>'
++ '<li><b>Le Mosche</b>             <code>BZZZ</code></li>'
++ '<li><b>Giovanna</b>              <code>JEAN</code></li>'
++ '<li><b>Un Giorno Qualunque</b>   <code>WHEN</code></li>'
++ '<li><b>Rumors</b>                <code>PSST</code></li>'
++ '</ol>';
 // TODO Chiavi dei sei mondi
 
 //////////////////////
 // CANTATRICE CALVA //
 //////////////////////
 
-paragraphs['1133'] = quote('Ti trovi catapultato in un tipico salotto inglese. Interno, borghese, inglese, con poltrone inglesi. Serata inglese. Il signor Smith, inglese, nella sua poltrona, inglese, fuma la sua pipa, inglese. Legge un giornale, inglese, seduto accanto al fuoco, inglese.')
+paragraphs['AAAH'] = smmBadge() + '-p-' + quote('Ti trovi catapultato in un tipico salotto inglese. Interno, borghese, inglese, con poltrone inglesi. Serata inglese. Il signor Smith, inglese, nella sua poltrona, inglese, fuma la sua pipa, inglese. Legge un giornale, inglese, seduto accanto al fuoco, inglese.')
 + 'Improvvisamente, un suono. Inglese. Chi suona alla porta?-p-'
 + 'In televisione stanno trasmettendo un telegiornale, inglese. In cucina senti il fischio della pentola a pressione. Che siano pronte le patate inglesi?-p-'
-+ 'Se volete restare a guardare il TG inglese, vai al Paragrafo <code>XXXX</code>.<br>'
-+ 'Se volete andare in cucina a controllare le patate, vai al Paragrafo <code>XXXX</code>.';
++ 'Se volete restare a guardare il TG inglese, vai al Paragrafo <code>1812</code>.<br>'
++ 'Se volete andare in cucina a controllare le patate, vai al Paragrafo <code>0572</code>.';
+
+paragraphs['1812'] = quote('Guarda un po’. È morto Bobby Watson.')
++ 'Al giorno d’oggi non si sa più cosa pensare. Cosa sarà vero e cosa no? All’interno di tutte queste notizie ci sono DUE SOLE Fake News. Individua le notizie false e inserisci i codici corrispondenti per sbloccare due nuovi paragrafi.';
+// TODO ELENCO Fake News
+
+paragraphs['57S2'] = quote('Ti dico che è una chiocciola!')
++ 'Siamo alle solite. Qualcuno vede chiocciole, qualcuno vede tartarughe. Un momento. Io vedo solamente tartarughe. C’è anche una chiocciola in giro? Individua la chiocciola all’interno del disegno e inserisci le coordinate relative al quadrante in cui si trova per sbloccare il prossimo Paragrafo.';
+// TODO Immagine chiocciola
+
+paragraphs['0572'] = smmBadge() + prdBadge() + '-p-' + quote('Il pesce era fresco. Mi sono persino leccata i baffi. Ne ho preso due volte. Anzi, tre. Mi farà andar di corpo. Anche tu ne hai preso tre volte. Però la terza volta ne hai preso meno delle due volte precedenti mentre io ne ho preso molto di più. Ho mangiato meglio di te questa sera. Come mai? Di solito tu mangi più di me. Non è certo l\'appetito che ti manca.')
++ 'In una cucina inglese non è facile fare da mangiare egregiamente per degli ospiti inglesi. La cuoca e cameriera, Mary, ha raccolto le inglesi richieste dei suoi commensali. Potete aiutarla a preparare un menù che soddisfi tutti gli ospiti? Troverete il ricettario all’interno del materiale del Drammaturgo. Dovete preparare un menù completo che preveda <b>Portata Principale</b>, <b>Contorno di Patate</b>, <b>Dolce</b> e <b>Drink</b> di accompagnamento. Queste sono le richieste degli ospiti.-p-'
++ '<h4>Il signor Smith</h4> è un perfezionista: ogni cosa deve essere curata in maniera molto meticolosa quando si tratta di preparare un piatto per lui. È fondamentale anzitutto che nessun ingrediente venga utilizzato due volte nella preparazione di due piatti diversi, con le dovute eccezioni: olio, sale, pepe, burro, latte, cacao, tacchini e cactus possono essere utilizzati in ogni pietanza. Una buona cottura, inoltre, ha alcuni requisiti fondamentali:'
++ '<ol>'
++ '<li>La temperatura del forno, quando lo si usa, deve combaciare con un buon angolo. Si può cuocere a 90°, 180°, 270° o 360°.</li>'
++ '<li>Il tempo massimo di cottura deve essere pari o inferiore a 69 minuti. Perché è un multiplo di 13 e 3.</li>'
++ '<li>Un buon cocktail non deve essere cotto.</li>'
++ '<li>Non si cuoce o scalda nulla a bagnomaria o con il microonde.</li>'
++ '<li>Il tempo di cottura deve sempre essere superiore al tempo di preparazione.</li>'
++ '</ol>-p-'
+
++ '<h4>La signora Smith</h4> pensa che la virtù stia nel mezzo. Non si può servire un piatto che contenga ingredienti ad un costo molto basso, ma nemmeno che il costo sia alto. Nessuna preparazione può richiedere meno di 15 minuti. Ma neanche più di 60 minuti. Infine nessun piatto deve essere troppo bianco, ma neanche troppo nero. Tutto questo ha una sola eccezione: i cocktail. La signora Smith infatti beve di tutto, indipendentemente dal prezzo, tempo di preparazione o colore.-p-'
+
++ '<h4>Il signor Martin</h4> non vuole in alcun modo creare problemi per la preparazione della cena, infatti ha buon gusto per tutti ciò che gli viene messo in tavola. Sfortunatamente presenta qualche piccola allergia:'
++ '<ul>'
++ '<li>I crostacei'
++ '<li>Il polline'
++ '<li>Le graminacee'
++ '<li>La polvere'
++ '<li>Le ortiche'
++ '<li>Le balene'
++ '<li>I frutti di mare'
++ '<li>I kiwi'
++ '<li>Il veleno delle api'
++ '<li>Il bronzo'
++ '<li>La gomma'
++ '<li>I cosmetici industriali'
++ '<li>Le vernici bianche'
++ '<li>La liquirizia'
++ '<li>Le arachidi'
++ '<li>I semi di sesamo'
++ '<li>Gli agrumi verdi o gialli'
++ '<li>La penicillina'
++ '<li>L’hummus'
++ '<li>Le acciughe'
++ '<li>La pasta di mandorle'
++ '<li>Il cioccolato'
++ '</ul>-p-'
+
++ '<h4>La signora Martin</h4> ha un grande desiderio: che nessuna creatura innocente sia sacrificata nella preparazione dei piatti: nessun cavallo, cane, cammello o cactus deve essere utilizzato nelle pietanze servite. Inoltre, è una donna che crede nel valore della sincerità: vuole quindi che nessun piatto menta.-p-'
+
++ 'Quando avete preparato il menù inviatelo al bot <code>produttore_GameBot</code>.';
+
+
+
+
+
+
+
+
+
 
 
 
