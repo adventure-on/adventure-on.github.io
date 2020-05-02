@@ -326,8 +326,10 @@ paragraphs['TR33'] = prdBadge() + smmBadge() + '-p-' + quote('- Dove sei stata?<
 
 paragraphs['S1YS'] = prdBadge() + '-p-' + quote('- Smettetela di giocare con quel balocco, maestà, e sedetevi in maniera composta!<br>- Parliamoci chiaro, Arcivescovo. Volete che giochi o che governi?')
 + 'Sfortunatamente Guido ha fatto cadere il cassone contenente gli strumenti musicali. Potreste dargli una mano a sistemarlo? Purtroppo non c’è modo di sistemare gli strumenti se prima non sarete in grado di riconoscerli. Come fareste, d’altra parte, a sistemare la Kalimba nel posto della Kalimba, se non sapete nemmeno cosa sia una Kalimba?-p-'
-+ 'Ascoltate l’audio <code>XXXX</code> e provate a identificare il maggior numero degli strumenti. Dopodichè inviate un messaggio al Produttore con il nome degli strumenti utilizzati all’interno di questo audio. Se ne identificate a sufficienza, vi verrà consegnato il codice del prossimo paragrafo.';
-// TODO AUDIO strumenti
++ 'Ascoltate l’audio sottostante e provate a identificare il maggior numero di strumenti. Dopodichè inviate un messaggio al Produttore con il nome degli strumenti utilizzati all’interno di questo audio. Se ne identificate a sufficienza, vi verrà consegnato il codice del prossimo paragrafo.-p-'
++ audio('Strumenti.mp3')
++ '-p-Un consiglio: potete scaricare l\'audio cliccandoci sopra con il tasto destro del mouse. In questo modo dovreste riuscire ad ascoltarlo tramite gli auricolari, che vi permettono di percepire l\'audio in maniera migliore.';
+
 
 paragraphs['L1GH'] = smmBadge() + '-p-' + quote('Fratello Ladvenu, Giovanna è salva. Ella accetta di rientrare in grembo alla Madre Chiesa. Leggete l’atto di abiura, lei lo firmerà.')
 + 'Gironzolando avanti e indietro giungete infine nei camerini degli attori. Sentite che tutti quanti stanno ripassando una sorta di cantilena comune, purtroppo le porte dei camerini sono chiuse, per cui non riuscite a distinguere chiaramente le parole che stanno ripetendo.-p-'
