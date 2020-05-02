@@ -58,7 +58,7 @@ function audio(fileName) {
     s += '<div class="">';
     s += '  <audio controls>';
     s += '      <source src="' + soundDir + fileName + '" type="audio/mp3">';
-    s += '      <i>Mi dispiace, il tuo browser non supporta la riproduzione di audio. Per favore, contatta gli Organizzatori per ricevere privatamente la traccia audio.</i>'
+    s += '      <i>Mi dispiace, il tuo browser non supporta la riproduzione di audio. Per favore, contatta gli Organizzatori per ricevere privatamente la traccia audio "' + fileName + '".</i>'
     s += '  </audio>';
     s += '</div>';
     return s;

@@ -243,22 +243,20 @@ paragraphs['IDEA'] = quote('- E il sistema di tutte le invenzioni possibili?<br>
 
 paragraphs['BZZZ'] = quote('Non avete nulla da temere. Oggi è la festa dei Morti. Quei gridi segnano l’inizio della cerimonia. Sono quindici anni che in questa giornata i morti defunti tornano dall’Oltretomba per farci compagnia. Camminano nelle nostre vie, si siedono alle nostre tavole, si addormentano nei nostri letti.')
 + 'Siate i benvenut* ad Argo. Siamo estremamente felici che abbiate deciso di farci visita proprio oggi, poiché oggi si celebra la Festa dei Morti, la ricorrenza più importante dell’anno. Non fatevi annoiare dalle mosche che girano, sono un po’ fastidiose, ma sono innocue. Desiderate far visita al Tempio Sacro oppure preferite andare nella Piazza del Mercato?-p-'
-+ 'Per andare al Tempio Sacro, vai al Paragrafo <code>RYXM</code>.<br>'
-+ 'Per andare nella Piazza del Mercato, vai al Paragrafo <code>F3X9</code>.';
++ 'Per andare al Tempio Sacro, vai al Paragrafo <code>F3X9</code>.<br>'
++ 'Per andare nella Piazza del Mercato, vai al Paragrafo <code>RYXM</code>.';
 
 paragraphs['F3X9'] = quote('Sei bella Elettra, più di me. Ma i miei baci ti faranno invecchiare.')
 + audio('Erinni1.mp3');
-// TODO Audio ERINNI
 
-paragraphs['J216'] = quote('Mi rotolerò sul loro ventre e sul loro petto come un torrente sui ciottoli.')
+paragraphs['7737'] = quote('Mi rotolerò sul loro ventre e sul loro petto come un torrente sui ciottoli.')
 + audio('Erinni2.mp3');
-// TODO Audio ERINNI
 
-paragraphs['4432'] = quote('Prenderò sulle ginocchia la sua testa pallida, accarezzerò i suoi capelli.')
+paragraphs['9832'] = quote('Prenderò sulle ginocchia la sua testa pallida, accarezzerò i suoi capelli.')
 + audio('Erinni3.mp3');
 
 
-paragraphs['3373'] = smmBadge() + '-p-IL RITUALE'; // TODO senza prova
+paragraphs['8616'] = smmBadge() + '-p-IL RITUALE'; // TODO senza prova
 
 paragraphs['RYXM'] = smmBadge() + '-p-' + quote('Ah, che viaggio piacevole. E che bella fu la vostra ispirazione di venire qui, quando in Grecia ci sono più di cinquecento città con vini buoni, alberghi accoglienti e vie affollate. ‘Sta gente di montagna pare che non abbia mai visto un turista, dappertutto gli stessi gridi di spavento, lo stesso fuggi-fuggi. Puah.')
 + 'La piazza del mercato è decisamente sovraffollata, ma di mosche, non di uomini. Non si riesce praticamente a vedere alcunché. Difficile riuscire a trovare tesori rari all’interno di questo sciame di mosche. Tuttavia, se aveste la pazienza di soffermarvi per un momento con più attenzione, notereste una cosa importante: che tutte queste mosche sono accoppiate tra loro, tranne due, diverse da tutte le altre. Sapreste individuare quali sono?-p-'
