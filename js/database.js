@@ -75,12 +75,12 @@ paragraphs['HOME'] = 'Benvenuti e benvenute nel mondo dell’<i>Avventura Dadosa
 + 'Il modo con cui dovrete svolgere le prove sarà specificato di volta in volta all’interno di ogni Paragrafo.<br>In alcuni casi sarà necessario inviare una soluzione al bot del Produttore, mentre in altri casi la soluzione degli enigmi sarà la chiave per sbloccare nuovi Paragrafi: tutto ciò sarà comunque spiegato all’interno di ogni singola prova.-p-'
 + 'Siete pronti?<br>E allora diamo ufficialmente il via alla Competizione!-p-Ecco le chiavi dei sei mondi:'
 + '<ol>'
-+ '<li><b>La Cantatrice Calva</b>   <code>AAAH</code></li>'
-+ '<li><b>I Fisici</b>              <code>BOOM</code></li>'
-+ '<li><b>Le Mosche</b>             <code>BZZZ</code></li>'
-+ '<li><b>Giovanna</b>              <code>JEAN</code></li>'
-+ '<li><b>Un Giorno Qualunque</b>   <code>WHEN</code></li>'
-+ '<li><b>Rumors</b>                <code>PSST</code></li>'
++ '<li><b>La Cantatrice Calva</b>       <code>AAAH</code></li>'
++ '<li><b>I Fisici</b>                  <code>BOOM</code></li>'
++ '<li><b>Le Mosche</b>                 <code>BZZZ</code></li>'
++ '<li><b>Giovanna</b>                  <code>JEAN</code></li>'
++ '<li><b>Un Giorno Qualunque</b>       <code>WHEN</code></li>'
++ '<li><b>Hai saputo di Charlie?</b>    <code>PSST</code></li>'
 + '</ol>';
 // TODO Chiavi dei sei mondi
 
@@ -311,9 +311,36 @@ paragraphs['E931'] = 'Per l\'ultima volta, ecco cosa sentite dai camerini degli 
 // UN GIORNO QUALUNQUE ///
 //////////////////////////
 
+paragraphs['WHEN'] = quote('È una casa troppo grande, due piani, un mucchio di stanze. Ma io non è per il lavoro che me ne vado. Me ne vado perché siamo troppo isolati. Oggi che nevica, qui sembra d’essere in un tomba. C’è un silenzio, come essere in una tomba.')
++ 'È una casa un po’ strana questa. Secondo alcuni c’è sempre tanto da fare, perché è una casa molto grande e di mestieri non ne mancano mai. Secondo altri non c’è mai nulla da fare, perché in realtà in questa casa è da un po’ che non c’è più vita.-p-'
++ 'Se pensi che ci sia molto da fare, vai al paragrafo <code>2385</code>.<br>'
++ 'Se pensi che non ci sia nulla da fare, vai al paragrafo <code>00Q0</code>.';
 
+paragraphs['00Q0'] = prdBadge() + '-p-' + quote('Avete un’idea strana della disperazione, voialtri. Quando uno è disperato, magari non fa mica delle cose tanto diverse dal solito. Magari fa quello che ha fatto per tutta la vita.')
++ 'È giunto il momento di prendersi una pausa.<br>Contattate il Produttore e comunicategli di voler risolvere la priva legata a questo Paragrafo, con codice <code>00Q0</code>. Passato un certo periodo, egli vi darà la soluzione per accedere ad un’altra stanza. Sfruttate questa pausa per bere un caffè, fare meditazione, andare in bagno o, se preferite, per fare un’altra sfida del Social Media Manager.';
 
+paragraphs['2385'] = smmBadge() + '-p-' + quote('Cesare? Se ne infischia. È stanco di lei. Non le prenderà alcun appartamento.')
++ 'È molto importante sistemare la casa prima che torni il Signor Cesare. Passare l’aspirapolvere, pulire i vetri, rimuovere la muffa e sistemare ogni cosa al suo posto. A proposito: dove son finite le ciabatte di Cesare? Bisogna ritrovarle al più presto, si arrabbia sempre quando non trova le sue ciabatte!-p-'
++ 'Trova le ciabatte nella seguente immagine. Le coordinate del quadrante contenente le ciabatte ti permetteranno di accedere al prossimo paragrafo.';
+// TODO IMMAGINE CIABATTE
 
+paragraphs['NIUW'] = '';
+
+paragraphs['FEET'] = scnBadge() + '';
+
+paragraphs['LEG0'] = quote('Now you’re just somebody that I used to know.');
+
+paragraphs['WAIT'] = quote('Fragola.')
++ 'La prima metà del codice del Paragrafo finale di questo Mondo è: <code>6G</code>';
+
+paragraphs['WALL'] = quote('Panna.')
++ 'La seconda metà del codice del Paragrafo finale di questo Mondo è: <code>PT</code>';
+
+paragraphs['6GPT'] = quote('Fragola e panna.')
++ 'Una coppa fragola e panna, per favore.';
+
+paragraphs['ZU28'] = scnBadge() + '-p-'
++ '1000 punti conquistati, Mondo <i>Hai saputo di Charlie?</i> completato.';
 
 ////////////////////////////
 // HAI SAPUTO DI CHARLIE? //
@@ -322,7 +349,9 @@ paragraphs['E931'] = 'Per l\'ultima volta, ecco cosa sentite dai camerini degli 
 
 
 
-//////////////////
+//////////////////////
+// PARAGRAFI RANDOM //
+//////////////////////
 
 paragraphs["DUSI"] = "<marquee direction='right'><a alt='' class='btn btn-danger' href='https://i.kym-cdn.com/entries/icons/original/000/000/260/youjustlost.jpg' style='width: 300px; font-size: 30px;'>NON CLICCARMI</a></marquee>";
 
@@ -330,12 +359,12 @@ paragraphs["PENE"] = "Vergognati.";
 
 paragraphs["1234"] = "Banale, non trovi anche tu?\nUn codice così semplice, così comune, non ti rende onore. Perché mai avresti dovuto digitarlo? Perché cedere alla tentazione?-p-Eppure, qualcosa di utile lo si trova lo stesso. Prova, così per dire, a digitare il codice <code>9241</code>.";
 
-paragraphs["9241"] = "Ora il codice <code>9213</code>.";
-paragraphs["9213"] = "Ora il codice <code>9231</code>.";
-paragraphs["9231"] = "Ora il codice <code>9124</code>.";
-paragraphs["9124"] = "Ora il codice <code>9324</code>.";
-paragraphs["9324"] = "Ora il codice <code>9432</code>.";
-paragraphs["9432"] = "Ora il codice <code>9142</code>.";
+paragraphs["9241"] = "Ora digita il codice <code>9213</code>.";
+paragraphs["9213"] = "Ora digita il codice <code>9231</code>.";
+paragraphs["9231"] = "Ora digita il codice <code>9124</code>.";
+paragraphs["9124"] = "Ora digita il codice <code>9324</code>.";
+paragraphs["9324"] = "Ora digita il codice <code>9432</code>.";
+paragraphs["9432"] = "Ora digita il codice <code>9142</code>.";
 paragraphs["9142"] = "Scusa, eh, ma fai tutto quello che ti viene detto?";
 
 
