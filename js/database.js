@@ -93,11 +93,30 @@ paragraphs['AAAH'] = smmBadge() + '-p-' + quote('Ti trovi catapultato in un tipi
 + 'Se volete restare a guardare il TG inglese, vai al Paragrafo <code>1812</code>.<br>'
 + 'Se volete andare in cucina a controllare le patate, vai al Paragrafo <code>0572</code>.';
 
-paragraphs['1812'] = quote('Guarda un po’. È morto Bobby Watson.')
-+ 'Al giorno d’oggi non si sa più cosa pensare. Cosa sarà vero e cosa no? All’interno di tutte queste notizie ci sono DUE SOLE Fake News. Individua le notizie false e inserisci i codici corrispondenti per sbloccare due nuovi paragrafi.';
-// TODO ELENCO Fake News
+paragraphs['1812'] = quote('- Perché solo la Marina è sana in Inghilterra!<br>- Ma non gli inglesi.')
++ 'Al giorno d’oggi non si sa più cosa pensare. Cosa sarà vero e cosa no?-p-'
++ 'Troverete di seguito una serie di leggi Britanniche. Di queste, alcune sono vere ed in vigore, altre non sono altro che leggende metropolitane. Nello specifico, ci sono <b>due notizie che non sono vere</b>, ma sono leggende metropolitane. Un’accurata ricerca in rete potrebbe aiutarvi a distinguere le notizie false da quelle vere.'
++ '<ol type="I">'
++ '<li><code>7A</code> Il Salmon Act del 1986 ha reso illegale gestire il salmone in circostanze sospette.</li>'
++ '<li><code>U6</code> Se siete donne e un uomo vi bacia contro la vostra volontà potete tranquillamente mordergli il naso, come previsto in una legge del 1837.</li>'
++ '<li><code>X0</code> Se abitate a Londra non potete tenere un maiale fuori dalla porta di casa. Se proprio ci tenete ad avere un maiale dovete allevarlo dentro il vostro appartamento e insudiciarvi la moquette.</li>'
++ '<li><code>D4</code> La sezione 54 del Metropolitan Police Act 1839 elenca una serie di giochi vietati come far volare gli aquiloni e scivolare sulla neve o sul ghiaccio, oltre a degli indefiniti annoying games.</li>'
++ '<li><code>LR</code> Una legge del 1313 mai abrogata rende illegale per i parlamentari entrare nelle Houses of Parliament indossando un’armatura.</li>'
++ '<li><code>P1</code> In base a vari regolamenti come il Metropolitan Police Act 1839 e il Town Police Clauses Act del 1847 non è possibile scuotere nessun tipo di tappeto sulla strada, mentre è invece consentito sbattere un materasso prima delle 8:00 del mattino.</li>'
++ '<li><code>SH</code> È illegale far transitare del bestiame sulla strada tra le 10:00 e le 19:00 senza il permesso del competente commissario di polizia. Potete però fare una passeggiata con la vostra mucca dopo il tramonto o al mattino presto senza problemi.</li>'
++ '<li><code>M3</code> Se la guida da ubriachi è punita dalla legge ovunque per ovvi motivi, gli inglesi precisano che in base al Licensing Act del 1872 è vietato anche cavalcare una mucca o un cavallo dopo aver bevuto.</li>'
++ '<li><code>1W</code> È illegale trovarsi a cento iarde di distanza, quasi cento metri, dalla regina senza indossare calze. </li>'
++ '<li><code>J5</code> È illegale saltare la coda in metropolitana.</li>'
++ '<li><code>8E</code> È illegale morire nelle Houses of Parliament, l’edificio è considerato un palazzo reale, quindi il defunto avrebbe diritto ad un funerale di stato, il che è particolarmente costoso.</li>'
++ '<li><code>9G</code> Ai sensi della sezione 54 del Metropolitan Police Act 1839, è illegale trasportare tavole lungo un marciapiedi.</li>'
++ '<li><code>RE</code> Dal 1839, è diventato illegale essere ubriachi in “locali autorizzati” (locali con licenza): in altre parole, pub e bar autorizzati. </li>'
++ '<li><code>B2</code> Se sei incinta, nel Regno Unito, sei autorizzata per legge a poter “alleviare” le tue sofferenze fisiologiche ovunque. </li>'
++ '<li><code>LO</code> La testa di qualsiasi balena morta trovata sulla costa britannica diventa automaticamente proprietà del Re, mentre la coda della Regina.</li>'
++ '<li><code>KC</code> Non è consentito cantare in pubblico, ad un amico o familiare che compie gli anni, <i>Happy Birthday!</i>. Se ciò avviene si è tenuti al pagamento di una tassa, essendo la canzone protetta da copyright.</li>'
++ '</ol>-p-'
++ 'Quando pensate di aver identificato le due notizie false, combinate i rispettivi codici (in un modo o nell\'altro...) per ottenere il codice del prossimo Paragrafo.';
 
-paragraphs['57S2'] = quote('Ti dico che è una chiocciola!')
+paragraphs['8E1W'] = quote('Ti dico che è una chiocciola!')
 + 'Siamo alle solite.<br>Qualcuno vede chiocciole, qualcuno vede tartarughe.-p-Un momento. Io vedo solamente tartarughe. C’è anche una chiocciola in giro?-p-Individua la chiocciola all’interno del disegno e inserisci le coordinate relative al quadrante in cui si trova per sbloccare il prossimo Paragrafo.-p-'
 + img('ChiocciolaTarta.jpg');
 
