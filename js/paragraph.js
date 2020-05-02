@@ -24,7 +24,7 @@ function writeParagraphText(code) {
     var text = paragraphs[code];
     // Formattazione
     text = text.trim();
-    text = text.replace(new RegExp('\r?\n','g'), "<br />"); // Sostituisco i NEW LINE con tag html BREAK LINE (<br />)
+    //text = text.replace(new RegExp('\r?\n','g'), "<br />"); // Sostituisco i NEW LINE con tag html BREAK LINE (<br />)
     text = text.replace(new RegExp('-p-','g'), "</p><p>"); // Nuovo paragrafo
 
 	writeRowLarge("<p>" + text + "</p>");

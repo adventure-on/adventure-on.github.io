@@ -1,19 +1,26 @@
 /**
  * Restituisce una stringa per un badge generico.
  */
-function getBadge(text, type) {
+function getBadge(text, type, alertText='') {
     var s = '';
-    s += '<span class="badge badge-' + type + '">';
+    s += '<a href="#" class="badge badge-pill badge-' + type + '"';
+    s += 'title=\"' + alertText + '\"';
+    s += '>';
     s += text;
-    s += '</span>  ';
+    s += '</a>';
     return s;
 }
 
 /**
  * Restituisce una stringa che rappresenta il badge per indicare una sfida SMM.
  */
-function smmBadge() {
-    return getBadge("Social Media Manager", "info");
+function smmBadge(challengeMessage='') {
+    if (challengeMessage == '') {
+        return getBadge("Social Media Manager", "info");
+    } else {
+        var alertText = 'Sfida per il Social Media Manager!\nInvia un messaggio all’account Instagram @game_of_dice con scritto:\n' + challengeMessage;
+        return getBadge("Social Media Manager", "info", alertText);
+    }
 }
 
 /**
