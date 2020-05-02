@@ -202,6 +202,18 @@ paragraphs['5395'] = quote('- È già buio.<br>- Fa notte presto, ormai.<br>- As
 + '';
 // TODO Prova
 
+paragraphs['9BS8'] = quote('- E il sistema di tutte le invenzioni possibili?<br>- Anche quello esiste.')
++ '';
+
+paragraphs['82U1'] = quote('- E il sistema di tutte le invenzioni possibili?<br>- Anche quello esiste.')
++ '';
+
+paragraphs['3V1W'] = quote('- E il sistema di tutte le invenzioni possibili?<br>- Anche quello esiste.')
++ '';
+
+paragraphs['IDEA'] = quote('- E il sistema di tutte le invenzioni possibili?<br>- Anche quello esiste.')
++ '';
+
 ////////////////////
 // LE MOSCHE ///
 ///////////////////
@@ -307,6 +319,25 @@ paragraphs['N921'] = 'Ascoltando una terza volta, quello che capite non migliora
 paragraphs['E931'] = 'Per l\'ultima volta, ecco cosa sentite dai camerini degli attori:-p-';
 // TODO FOTO ABIURA
 
+paragraphs['32FZ'] = 'TODO Doccia gelata';
+
+paragraphs['75VA'] = quote('- Guarda dritto davanti a sé?<br>- Sì, signore.')
++ '-p-Il primo carattere del codice del Paragrafo finale di questo Mondo è: <code>T***</code>.';
+
+paragraphs['REI2'] = quote('- Senza debolezze?<br>- Sì, signore.')
++ '-p-Il secondo carattere del codice del Paragrafo finale di questo Mondo è: <code>*4**</code>.';
+
+paragraphs['LZ55'] = quote('- Sembra che stia sorridendo, non è vero?<br>- Sì, signore.')
++ '-p-Il terzo carattere del codice del Paragrafo finale di questo Mondo è: <code>**N*</code>.';
+
+paragraphs['M6C4'] = quote('- Non la vinceremo mai.<br>- No, signore.')
++ '-p-Il quarto carattere del codice del Paragrafo finale di questo Mondo è: <code>***9</code>.';
+
+paragraphs['T4N9'] = quote('Bisognerà avere del coraggio, ne avrò tanto io.');
+
+paragraphs['RAIN'] = 'Avete sbloccato l\'allodola.-p-'
++ 'Congratulazioni! Avete terminato il Mondo di <i>Giovanna</i>, ricevendo <b>1000</b> punti bonus.';
+
 //////////////////////////
 // UN GIORNO QUALUNQUE ///
 //////////////////////////
@@ -340,7 +371,7 @@ paragraphs['6GPT'] = quote('Fragola e panna.')
 + 'Una coppa fragola e panna, per favore.';
 
 paragraphs['ZU28'] = scnBadge() + '-p-'
-+ '1000 punti conquistati, Mondo <i>Hai saputo di Charlie?</i> completato.';
++ '1000 punti conquistati, Mondo <i>Un Giorno Qualunque</i> completato.';
 
 ////////////////////////////
 // HAI SAPUTO DI CHARLIE? //
