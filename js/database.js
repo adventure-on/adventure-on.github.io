@@ -239,6 +239,89 @@ paragraphs['BV8V'] = 'Evvai! Raccogli la mela del pedagogo.';
 
 paragraphs['MELA'] = scnBadge() + 'YESSS 1000 punti!';
 
+////////////////
+// GIOVANNA //
+//////////////
+
+paragraphs['JEAN'] = quote('Ci siamo tutti? Bene. Prima sarà giudicata e bruciata, meglio sarà.')
++ 'Quanto disordine in questo teatro! C’è un gran traffico di persone che si muove avanti e indietro trasportando rami, tronchi, maschere, mantelli, strumenti musicali, fari, corde, locandine e molto altro ancora. Forse è il caso di dare una mano a qualcuno.-p-'
++ 'Se vuoi chiedere informazioni a qualcuno su cosa stia succedendo, vai al Paragrafo <code>52WG</code>.<br>'
++ 'Se vuoi aiutare a preparare l’Albero delle Fate, vai al Paragrafo <code>TR33</code>.<br>'
++ 'Se vuoi aiutare a sistemare gli strumenti musicali, vai al Paragrafo <code>S1YS</code>.<br>'
++ 'Se preferisci andartene in giro ad esplorare un po’, vai al Paragrafo <code>L1GH</code>.<br>';
+
+paragraphs['52WG'] = prdBadge() + '-p-' + quote('Lo dico sempre io, non si riflette abbastanza!')
++ 'È stata fissata una nuova replica di Giovanna. Sfortunatamente il regista non è al momento raggiungibile per chiarire le informazioni fondamentali, si potrebbe chiedere agli attori. Ma c’è un po’ di confusione, le loro informazioni non combaciano.-p-'
++ '<h4>Andrea</h4> sostiene che la persona responsabile delle luci sia Colpani, mentre della scenografia se ne occuperà Dusi. Il trasporto avverrà grazie ad un’ape rossa, la replica è fissata per le 22 e la convocazione è alle 14.-p-'
++ '<h4>Francesco</h4> sostiene che il responsabile luci sia Fra Alberto, mentre della scenografia se ne occuperà Colpani. Il trasporto avverrà con un’ape rossa, la replica è fissata per le 21 e la convocazione è alle 11.-p-'
++ '<h4>Guido</h4> sostiene che il responsabile luci sia Miriam, mentre della scenografia se ne occuperà Mauro. Il trasporto avverrà con un camioncino di Miso, la replica è fissata per le 21 e la convocazione è alle 14.-p-'
++ '<h4>Matteo</h4> sostiene che il responsabile luci sia Colpani, mentre della scenografia se ne occuperà Mauro. Il trasporto avverrà con un dirigibile. La replica è fissata per le 20 e la convocazione è alle 13.-p-'
++ '<h4>Paola</h4> sostiene che il responsabile luci sia Mauro, mentre della scenografia se ne occuperà Fra Alberto. Il trasporto avverrà con un camioncino di Miso, la replica è fissata per le 21 e la convocazione è alle 9.-p-'
++ '<h4>Vincenzo</h4> sostiene che il responsabile luci sia Dusi, mentre della scenografia se ne occuperà Miriam. Il trasporto avverrà con un dirigibile. La replica è fissata per le 19 e la convocazione è alle 11.-p-'
++ 'C’è evidentemente un po’ di confusione. Ma per fortuna il regista conosce bene i suoi attori, e sa che tra di loro nessuno è perfetto e nessuno è completamente fuori strada. C’è una sola persona che ricorda con esattezza tre informazioni, due che ne ricordano due e tre persone che ne ricordano correttamente solo una.<br>'
++ 'Le informazioni sono:'
++ '<ol>'
++ '<li><b>Addetto luci</b>;</li>'
++ '<li><b>Addetto scenografia</b>;</li>'
++ '<li><b>Mezzo di trasporto</b>;</li>'
++ '<li><b>Orario della replica</b>;</li>'
++ '<li><b>Orario di convocazione</b>.</li>'
++ '</ol>-p-'
++ 'Ah, un paio di altre informazioni:'
++ '<ol>'
++ '<li>Il dirigibile è sicuramente fuori dal budget dello spettacolo!</li>'
++ '<li>Colpani e Fra Alberto non vanno sicuramente d’accordo. Meglio non metterli a lavorare insieme.</li>'
++ '<li>Miriam ha i Consigli di classe! Purtroppo non può esserci se la convocazione è alle 14.</li>'
++ '</ol>-p-'
++ 'Una volta che avete capito l’organizzazione della replica, inviate la soluzione al Produttore.';
+
+paragraphs['TR33'] = prdBadge() + smmBadge() + '-p-' + quote('- Dove sei stata?<br>- Ero nei campi.<br>- Anche io ero nei campi, ma sono tornato. Sono le sei.<br>- Ho perduto la nozione del tempo.')
++ 'MANCA LA PROVA.';
+// TODO PROva
+
+paragraphs['S1YS'] = prdBadge() + '-p-' + quote('- Smettetela di giocare con quel balocco, maestà, e sedetevi in maniera composta!<br>- Parliamoci chiaro, Arcivescovo. Volete che giochi o che governi?')
++ 'Sfortunatamente Guido ha fatto cadere il cassone contenente gli strumenti musicali. Potreste dargli una mano a sistemarlo? Purtroppo non c’è modo di sistemare gli strumenti se prima non sarete in grado di riconoscerli. Come fareste, d’altra parte, a sistemare la Kalimba nel posto della Kalimba, se non sapete nemmeno cosa sia una Kalimba?-p-'
++ 'Ascoltate l’audio <code>XXXX</code> e provate a identificare il maggior numero degli strumenti. Dopodichè inviate un messaggio al Produttore con il nome degli strumenti utilizzati all’interno di questo audio. Se ne identificate a sufficienza, vi verrà consegnato il codice del prossimo paragrafo.';
+// TODO AUDIO strumenti
+
+paragraphs['L1GH'] = smmBadge() + '-p-' + quote('Fratello Ladvenu, Giovanna è salva. Ella accetta di rientrare in grembo alla Madre Chiesa. Leggete l’atto di abiura, lei lo firmerà.')
++ 'Gironzolando avanti e indietro giungete infine nei camerini degli attori. Sentite che tutti quanti stanno ripassando una sorta di cantilena comune, purtroppo le porte dei camerini sono chiuse, per cui non riuscite a distinguere chiaramente le parole che stanno ripetendo.-p-'
++ 'All’interno dei quattro Paragrafi successivi, troverete quattro immagini contenenti alcuni pezzi dell’Abiura di Giovanna, il cui testo completo sarà riportato qui sotto. In ogni immagine saranno riportate alcune sillabe e lettere, che dovrete sottrarre dal testo originale per trovare il messaggio segreto contenuto dentro l’abiura e trovare il prossimo paragrafo. In tutte le immagini è stato scritto il testo originale e poi sono state eliminate le lettere non pertinenti, quindi la spaziatura tra le lettere rimaste è identica alla spaziatura presente nell’originale (aprite direttamente le immagini per capire meglio).-p-'
++ quote('Io, Giovanna, detta volgarmente “La Pulzella”, confesso di aver peccato di orgoglio, di caparbietà, e di malizia assicurando di aver avuto alcune rivelazioni di Nostro Signore Iddio tramite gli angeli e le Beate Sante. Rinnego codesti peccati, giuro sui Santi Vangeli che non porterò più questo abito di eresia, non prenderò più le armi. Dichiaro di rimettermi umilmente alla Nostra Santa Madre Chiesa e al Santo Padre il Papa di Roma, per l’esame dei miei peccati e dei miei errori. Io supplico la Chiesa di rimettermi nel suo grembo, e mi dico pronta a subire la sentenza che vorrà infliggermi.')
++ '<ul>'
++ '<li>Paragrafo 1: <code>C734</code>;</li>'
++ '<li>Paragrafo 2: <code>A834</code>;</li>'
++ '<li>Paragrafo 3: <code>N921</code>;</li>'
++ '<li>Paragrafo 4: <code>E931</code>.</li>'
++ '</ul>';
+
+paragraphs['C734'] = 'Ecco quello che riuscite vagamente a sentire ad un primo ascolto:-p-';
+// TODO FOTO ABIURA
+
+paragraphs['A834'] = 'Un secondo ascolto vi permette di sentire le seguenti sillabe:-p-';
+// TODO FOTO ABIURA
+
+paragraphs['N921'] = 'Ascoltando una terza volta, quello che capite non migliora molto:-p-';
+// TODO FOTO ABIURA
+
+paragraphs['E931'] = 'Per l\'ultima volta, ecco cosa sentite dai camerini degli attori:-p-';
+// TODO FOTO ABIURA
+
+//////////////////////////
+// UN GIORNO QUALUNQUE ///
+//////////////////////////
+
+
+
+
+
+////////////////////////////
+// HAI SAPUTO DI CHARLIE? //
+////////////////////////////
+
+
+
+
 //////////////////
 
 paragraphs["DUSI"] = "<marquee direction='right'><a alt='' class='btn btn-danger' href='https://i.kym-cdn.com/entries/icons/original/000/000/260/youjustlost.jpg' style='width: 300px; font-size: 30px;'>NON CLICCARMI</a></marquee>";
