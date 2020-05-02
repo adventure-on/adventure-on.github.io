@@ -67,6 +67,11 @@ paragraphs['1111'] = 'Ecco, qui le n-nostre strade si separano.<br>Come dite?<br
 
 paragraphs['CATA'] = 'Seriamente avete provato a raccogliere un catamarano...?';
 
+paragraphs['RAMO'] = 'Ok, bene.-p-E ora cosa pensate di farne?-p-'
++ 'Non fraintendetemi, per carità, non è da tutti raccogliere un rametto da terra.<br>'
++ 'Ma addirittura pretendere che questo vi conduca ad un Paragrafo interessante?-p-'
++ 'Per piacere.';
+
 ///////////
 
 paragraphs['HOME'] = 'Benvenuti e benvenute nel mondo dell’<i>Avventura Dadosa</i>.<br>Questo è il Paragrafo <code>HOME</code>, il luogo dove ha inizio la vostra storia. Durante questo viaggio avrai occasione di visitare i luoghi dove si sono svolte alcune delle più belle storie dei <i>Dadi Truccati</i> degli ultimi anni. Leggete attentamente le parole seguenti per essere sicuri di non perdervi alcuni passaggi fondamentali.-p-'
