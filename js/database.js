@@ -60,10 +60,14 @@ paragraphs['1001'] = scnBadge() + '-p-Meraviglioso, sembra che abbia funzionato!
 + 'Bene, procediamo per un’ultima volta insieme fino al paragrafo <code>1111</code>.';
 
 paragraphs['1111'] = 'Ecco, qui le n-nostre strade si separano.<br>Come dite?<br>N-no, non sto p-piangendo, è che mi è entrato un catamarano in un occhio.<br>*Sigh*-p-'
-+ 'In ogni caso, io ora vi devo lasciare. Voi però non muovetevi da qui: <b>dovete attendere che gli Organizzatori diano il VIA ufficiale</b>; a quel punto conoscerete anche il codice del paragrafo che dà inizio all’intero gioco.-p-'
++ 'In ogni caso, io ora vi devo lasciare. Voi però potrete andare avanti - con calma -  <b>appena gli Organizzatori daranno il VIA ufficiale</b>; a quel punto conoscerete anche il codice del paragrafo che dà inizio all’intero gioco.-p-'
 + 'Spero di rivedervi presto.-p-'
 + 'Per sempre vostro,-p-'
 + 'il <i>Tutorial</i>.';
+
+paragraphs['CATA'] = 'Seriamente avete provato a raccogliere un catamarano...?';
+
+///////////
 
 paragraphs['HOME'] = 'Benvenuti e benvenute nel mondo dell’<i>Avventura Dadosa</i>.<br>Questo è il Paragrafo <code>HOME</code>, il luogo dove ha inizio la vostra storia. Durante questo viaggio avrai occasione di visitare i luoghi dove si sono svolte alcune delle più belle storie dei <i>Dadi Truccati</i> degli ultimi anni. Leggete attentamente le parole seguenti per essere sicuri di non perdervi alcuni passaggi fondamentali.-p-'
 + 'Da questo capitolo avrai la possibilità di accedere a sei diversi <b>Mondi</b>. All’interno di ognuno di questi mondi troverete una serie di capitoli e prove differenti che testeranno la vostra prontezza, il vostro acume, la vostra capacità di fare squadra e la voglia di mettervi in gioco. Ognuno di questi mondi ha una <b>Porta d’Ingresso</b> a cui potrete giungere tramite le coordinate scritte al termine di questo paragrafo. Oltre la Porta d’Ingresso troverete una serie di prove. Il vostro obiettivo sarà quello di recuperare da ogni Mondo un <b>Oggetto Speciale</b>, fortemente legato alla storia della Compagnia: ciò sarà possibile solamente quando avrete risolto tutte le sfide contenute all’interno di quel Mondo.-p-'
@@ -425,6 +429,7 @@ paragraphs['NIUW'] = '';
 paragraphs['FEET'] = scnBadge() + '';
 
 paragraphs['LEG0'] = quote('Now you’re just somebody that I used to know.');
+// TODO
 
 paragraphs['WAIT'] = quote('Fragola.')
 + 'La prima metà del codice del Paragrafo finale di questo Mondo è: <code>6G</code>';
@@ -469,22 +474,16 @@ paragraphs['PSST'] = prdBadge() + smmBadge('Hai saputo di Charley?') + '-p-' + q
 + '<li><b>Mansarda</b> → <code>6F1J</code>'
 + '<li><b>Studio</b> → <code>17BU</code>'
 + '</ol>';
-
 // Cucina
 paragraphs['9E4R'] = img('Cucina.jpg');
-
 // Mansarda
 paragraphs['6F1J'] = img('Mansarda.jpg');
-
 // Salotto
 paragraphs['8YCO'] = img('Salotto.jpg');
-
 // Bagno
 paragraphs['4MN2'] = img('Bagno.jpg');
-
 // Camera da letto
 paragraphs['5D5G'] = img('Camera da letto.jpg');
-
 // Studio
 paragraphs['17BU'] = img('Studio.jpg');
 
@@ -502,7 +501,7 @@ paragraphs['RT3W'] = scnBadge('Computer') + '-p-Aprendo il pc, trovate questo <b
 
 paragraphs['2107'] = 'Solo Charley poteva scegliere come password per la cassaforte data di nascita di suo figlio.<br>Il rischio di scoprirla era veramente alto… e voi ci siete riuscit* grazie al vostro incredibile acume! All’interno della cassaforte trovate un <b>GIOIELLO</b>. Si tratta di un paio di orecchini dorati, devono valere molto.-p-Strano, però. Vi sembrava di ricordare che Myra fosse allergica all’oro.';
 
-paragraphs['BOHH'] = quote('(knock knock)<br><br>- Sono Myra! Aprite per favore!')
+paragraphs['1R8C'] = quote('(knock knock)<br><br>- Sono Myra! Aprite per favore!')
 + 'Il vostro fiuto per la verità vi ha aiutato a giungere alla soluzione… forse. La verità è una questione più complessa di quello che sembra, ma per oggi ci accontenteremo della vostra soluzione.-p-Raccogliete in questa stanza un <b>cuscino di Cocca</b>, l’Oggetto Speciale del Mondo di <i>Hai Saputo di Charley?</i>.';
 
 paragraphs['PUFF'] = getFinalObjectParagraph('cuscino di Cocca', "Hai saputo di Charley?");
@@ -511,6 +510,13 @@ paragraphs['PUFF'] = getFinalObjectParagraph('cuscino di Cocca', "Hai saputo di 
 //////////////////////
 // PARAGRAFI RANDOM //
 //////////////////////
+
+paragraph['TEST'] = quote('Ceci n\'est pas un paragraphe.');
+
+paragraphs['ABCD'] = 'Hey tu!<br>Sì sì, dico proprio a te!<br>Dove pensi di andare?-p-'
++ 'Questa è zona privata, non si può passare.-p-'
++ 'Io capisco che sia divertente andare in giro a zonzo, ma mi pare che tu e la tua combriccola abbiate un <i>Tutorial</i> da portare avanti, o sbaglio?-p-'
++ 'Su su, niente storie. Tornate in carreggiata e finite ciò che avete iniziato.<br>Avrete tutto il tempo per divertirvi ad esplorare, non temete.';
 
 paragraphs["DUSI"] = "<marquee direction='right'><a alt='' class='btn btn-danger' href='https://i.kym-cdn.com/entries/icons/original/000/000/260/youjustlost.jpg' style='width: 300px; font-size: 30px;'>NON CLICCARMI</a></marquee>";
 
