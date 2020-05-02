@@ -82,7 +82,6 @@ paragraphs['HOME'] = 'Benvenuti e benvenute nel mondo dell’<i>Avventura Dadosa
 + '<li><b>Un Giorno Qualunque</b>       <code>WHEN</code></li>'
 + '<li><b>Hai saputo di Charlie?</b>    <code>PSST</code></li>'
 + '</ol>';
-// TODO Chiavi dei sei mondi
 
 //////////////////////
 // CANTATRICE CALVA //
@@ -99,8 +98,8 @@ paragraphs['1812'] = quote('Guarda un po’. È morto Bobby Watson.')
 // TODO ELENCO Fake News
 
 paragraphs['57S2'] = quote('Ti dico che è una chiocciola!')
-+ 'Siamo alle solite. Qualcuno vede chiocciole, qualcuno vede tartarughe. Un momento. Io vedo solamente tartarughe. C’è anche una chiocciola in giro? Individua la chiocciola all’interno del disegno e inserisci le coordinate relative al quadrante in cui si trova per sbloccare il prossimo Paragrafo.';
-// TODO Immagine chiocciola
++ 'Siamo alle solite.<br>Qualcuno vede chiocciole, qualcuno vede tartarughe.-p-Un momento. Io vedo solamente tartarughe. C’è anche una chiocciola in giro?-p-Individua la chiocciola all’interno del disegno e inserisci le coordinate relative al quadrante in cui si trova per sbloccare il prossimo Paragrafo.-p-'
++ img('ChiocciolaTarta.jpg');
 
 paragraphs['0572'] = smmBadge() + prdBadge() + '-p-' + quote('Il pesce era fresco. Mi sono persino leccata i baffi. Ne ho preso due volte. Anzi, tre. Mi farà andar di corpo. Anche tu ne hai preso tre volte. Però la terza volta ne hai preso meno delle due volte precedenti mentre io ne ho preso molto di più. Ho mangiato meglio di te questa sera. Come mai? Di solito tu mangi più di me. Non è certo l\'appetito che ti manca.')
 + 'In una cucina inglese non è facile fare da mangiare egregiamente per degli ospiti inglesi. La cuoca e cameriera, Mary, ha raccolto le inglesi richieste dei suoi commensali. Potete aiutarla a preparare un menù che soddisfi tutti gli ospiti? Troverete il ricettario all’interno del materiale del Drammaturgo. Dovete preparare un menù completo che preveda <b>Portata Principale</b>, <b>Contorno di Patate</b>, <b>Dolce</b> e <b>Drink</b> di accompagnamento. Queste sono le richieste degli ospiti.-p-'
@@ -178,25 +177,27 @@ paragraphs['9WPQ'] = prdBadge() + smmBadge() + '-p-' + quote('Mio padre, il cons
 
 paragraphs['BE7E'] = smmBadge() + '-p-'
 + quote('Venga, signora Rose. Bisogna che si calmi, ecco tutto.')
-+ 'Un buon personale sanitario deve sempre tenere monitorato uno degli organi più importanti, soprattutto nei pazienti che tendono ad agitarsi molto: il CUORE.<br>Trovate, per terra, questo strano foglio. Cosa ci farà per terra?';
-// TODO Immagine ECG
++ 'Un buon personale sanitario deve sempre tenere monitorato uno degli organi più importanti, soprattutto nei pazienti che tendono ad agitarsi molto: il <b>cuore</b>.-p-Trovate, per terra, questo strano foglio. Cosa ci farà per terra?'
++ img('ecgMatilda.jpg');
 
 paragraphs['9786'] = smmBadge() + '-p-' + quote('Manca citazione')
 + 'Quest\'ala dell\'edificio non sembra essere troppo frequentata...-p-'
 + 'Per puro caso, scorgete due figure immobili attorno ad un tavolino, sul quale è posta una strana scacchiera. Sembra stiano facendo un qualche gioco di cui faticate a comprendere le regole... In ogni caso, lo potete vedere nell\'immagine sottostante.-p-'
-+ 'Potrebbe essere interessante parlare con loro, ma a quale dei due approcciarsi per primo?<br>'
++ img('Griglia.png')
++ '-p-Potrebbe essere interessante parlare con loro, ma a quale dei due approcciarsi per primo?<br>'
 + 'Quello a sinistra, sotto la finestra, sembra intento a gustare una mela. Fra un morso e un altro, si diverte a lasciar cadere piccoli oggetti dalla forma indefinita.<br>'
 + 'Quello a destra siede invece su una poltrona, al cui fianco è appoggiato un violino. Il suo sguardo sembra fissare il vuoto, e mostra ben poco interesse per il gioco.-p-'
 + 'Dopo aver riflettuto un poco su come procedere, concordate che forse non è così rilevante. In fondo, sapete bene che ognuno di loro vi dirà le stesse identiche cose, e qualunque cosa scegliate otterrete gli stessi identici risultati.-p-'
 + 'Se volete parlare con la figura di sinistra, andate al Paragrafo <code>T4BG</code>.<br>'
 + 'Se volete parlare con la figura di destra, andate al Paragrafo <code>R8Z0</code>.';
-// TODO Immagine griglia
 
-paragraphs['T4BG'] = 'Newton';
-// TODO Immagine USA
+paragraphs['T4BG'] = quote('Manca citazione')
++ 'Newton'
++ img('Code1.png');
 
-paragraphs['R8Z0'] = 'Einstein';
-// TODO Immagine URSS
+paragraphs['R8Z0'] = quote('Manca citazione')
++ 'Einstein'
++ img('Code2.png');
 
 paragraphs['5395'] = quote('- È già buio.<br>- Fa notte presto, ormai.<br>- Aspetta che accendo la luce.</br>- Non ancora. Vieni qui da me.')
 + '';
@@ -224,8 +225,14 @@ paragraphs['BZZZ'] = quote('Non avete nulla da temere. Oggi è la festa dei Mort
 + 'Per andare nella Piazza del Mercato, vai al Paragrafo <code>F3X9</code>.';
 
 paragraphs['F3X9'] = quote('Sei bella Elettra, più di me. Ma i miei baci ti faranno invecchiare.') + '';
+// TODO Audio ERINNI
+
 paragraphs['J216'] = quote('Mi rotolerò sul loro ventre e sul loro petto come un torrente sui ciottoli.') + '';
+// TODO Audio ERINNI
+
 paragraphs['4432'] = quote('Prenderò sulle ginocchia la sua testa pallida, accarezzerò i suoi capelli.') + '';
+// TODO Audio ERINNI
+
 
 paragraphs['3373'] = smmBadge() + '-p-IL RITUALE'; // TODO senza prova
 
@@ -236,16 +243,42 @@ paragraphs['RYXM'] = smmBadge() + '-p-' + quote('Ah, che viaggio piacevole. E ch
 
 paragraphs['E9P8'] = 'MOSCHE INNAMORATE'; // TODO paragrafo melanconico e stupido
 
+
+var caroselloDellaMorte = ''
++ '<div id="carouselOfDeath" class="carousel slide" data-ride="carousel">'
++ ' <div class="carousel-inner">'
++ carouselItem('Morte1.jpg', 1, 'active')
++ carouselItem('Morte2.jpg', 2)
++ carouselItem('Morte3.jpg', 3)
++ carouselItem('Morte4.jpg', 4)
++ carouselItem('Morte5.jpg', 5)
++ carouselItem('Morte6.jpg', 6)
++ carouselItem('Morte7.jpg', 7)
++ carouselItem('Morte8.jpg', 8)
++ carouselItem('Morte9.jpg', 9)
++ carouselItem('Morte10.jpg', 10)
++ ' </div>'
++ '<a class="carousel-control-prev" href="#carouselOfDeath" role="button" data-slide="prev">'
++ '<span class="carousel-control-prev-icon" aria-hidden="true"></span>'
++ '<span class="sr-only">Previous</span>'
++ '</a>'
++ '<a class="carousel-control-next" href="#carouselOfDeath" role="button" data-slide="next">'
++ '<span class="carousel-control-next-icon" aria-hidden="true"></span>'
++ '<span class="sr-only">Next</span>'
++ '</a>'
++ '</div>';
+
+
 paragraphs['HD44'] = prdBadge() + smmBadge() + '-p-'
 + quote('Com’è frivolo il popolo di Argo. E com’è vicino al mio cuore!')
-+ 'Ovunque vi giriate non vedete altro che gente povera, malata, disperata, vestita di stracci. Le mosche sembrano aver portato con sé non solo la miseria, ma anche la malattia. Ma di che malattia si tratta esattamente? Le manifestazioni sono tante, e molto strane. Sembrerebbe di vedere tante diverse malattie in tutti questi soggetti. Magari c’è pure qualche falso invalido.-p-'
-+ '' // TODO Immagini morte
-+ 'Associate ad ogni raffigurazione la corrispondente malattia tra le seguenti: <b>Febbre gialla</b>, <b>Tubercolosi</b>, <b>Emorragia</b>, <b>Bipolarismo</b>, <b>Gotta</b>, <b>Colera</b>, <b>Peste bubbonica</b>, <b>Sifilide</b>, <b>Lebbra</b>, <b>Depressione</b>. Se aveste dei dubbi, potete tranquillamente consultare il Manuale delle Malattie all’interno del materiale del Drammaturgo. Una volta che avete associato ad ogni quadro una malattia, inviate al bot del produttore il codice risultante dall’iniziale della malattia.-p-'
++ 'Ovunque vi giriate non vedete altro che gente povera, malata, disperata, vestita di stracci. Le mosche sembrano aver portato con sé non solo la miseria, ma anche la malattia.<br>Ma di che malattia si tratta esattamente? Le manifestazioni sono tante, e molto strane. Sembrerebbe di vedere tante diverse malattie in tutti questi soggetti. Magari c’è pure qualche falso invalido.-p-'
++ caroselloDellaMorte + '-p-'
++ 'Associate ad ogni raffigurazione la corrispondente malattia tra le seguenti: <b>Febbre gialla</b>, <b>Tubercolosi</b>, <b>Emorragia</b>, <b>Bipolarismo</b>, <b>Gotta</b>, <b>Colera</b>, <b>Peste bubbonica</b>, <b>Sifilide</b>, <b>Lebbra</b>, <b>Depressione</b>.<br>Se aveste dei dubbi, potete tranquillamente consultare il Manuale delle Malattie all’interno del materiale del Drammaturgo.<br>Una volta che avete associato ad ogni quadro una malattia, inviate al bot del produttore il codice risultante dall’iniziale della malattia.-p-'
 + '<i>Esempio:</i> se i quadri fossero disposti esattamente come la lista delle malattie, il codice risultante sarebbe <b>FTEBGCPSLD</b>.';
 
-paragraphs['2414'] = 'Prima metà oggetto finale: <code>BV--</code>.';
+paragraphs['2414'] = 'Prima metà oggetto finale: <code>BV**</code>.';
 
-paragraphs['C99K'] = 'Seconda metà oggetto finale: <code>--8V</code>.';
+paragraphs['C99K'] = 'Seconda metà oggetto finale: <code>**8V</code>.';
 
 paragraphs['BV8V'] = 'Evvai! Raccogli la mela del pedagogo.';
 
@@ -307,17 +340,17 @@ paragraphs['L1GH'] = smmBadge() + '-p-' + quote('Fratello Ladvenu, Giovanna è s
 + '<li>Paragrafo 4: <code>E931</code>.</li>'
 + '</ul>';
 
-paragraphs['C734'] = 'Ecco quello che riuscite vagamente a sentire ad un primo ascolto:-p-';
-// TODO FOTO ABIURA
+paragraphs['C734'] = 'Ecco quello che riuscite vagamente a sentire ad un primo ascolto:-p-'
++ img('abiura1.png');
 
-paragraphs['A834'] = 'Un secondo ascolto vi permette di sentire le seguenti sillabe:-p-';
-// TODO FOTO ABIURA
+paragraphs['A834'] = 'Un secondo ascolto vi permette di sentire le seguenti sillabe:-p-'
++ img('abiura2.png');
 
-paragraphs['N921'] = 'Ascoltando una terza volta, quello che capite non migliora molto:-p-';
-// TODO FOTO ABIURA
+paragraphs['N921'] = 'Ascoltando una terza volta, quello che capite non migliora molto:-p-'
++ img('abiura3.png');
 
-paragraphs['E931'] = 'Per l\'ultima volta, ecco cosa sentite dai camerini degli attori:-p-';
-// TODO FOTO ABIURA
+paragraphs['E931'] = 'Per l\'ultima volta, ecco cosa sentite dai camerini degli attori:-p-'
++ img('abiura4.png');
 
 paragraphs['32FZ'] = 'TODO Doccia gelata';
 
@@ -352,8 +385,8 @@ paragraphs['00Q0'] = prdBadge() + '-p-' + quote('Avete un’idea strana della di
 
 paragraphs['2385'] = smmBadge() + '-p-' + quote('Cesare? Se ne infischia. È stanco di lei. Non le prenderà alcun appartamento.')
 + 'È molto importante sistemare la casa prima che torni il Signor Cesare. Passare l’aspirapolvere, pulire i vetri, rimuovere la muffa e sistemare ogni cosa al suo posto. A proposito: dove son finite le ciabatte di Cesare? Bisogna ritrovarle al più presto, si arrabbia sempre quando non trova le sue ciabatte!-p-'
-+ 'Trova le ciabatte nella seguente immagine. Le coordinate del quadrante contenente le ciabatte ti permetteranno di accedere al prossimo paragrafo.';
-// TODO IMMAGINE CIABATTE
++ 'Trova le ciabatte nella seguente immagine. Le coordinate del quadrante contenente le ciabatte ti permetteranno di accedere al prossimo paragrafo.'
++ img('Ciabatte.jpg');
 
 paragraphs['NIUW'] = '';
 

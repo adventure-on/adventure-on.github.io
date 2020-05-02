@@ -9,3 +9,31 @@
      s += '</div>-p-';
      return s;
  }
+
+var assetsDir = '../assets/';
+var imgDir = assetsDir + 'img/';
+
+ // SFRUTTO QUESTO FILE ANCHE PER IMMAGINI E AUDIO
+ function img(name) {
+     var s = '';
+     s += '<div class="img-thumbnail img-responsive" >';
+     s += '<img class="img-fluid rounded" style="width: 100%;" src="' + imgDir + name + '" alt="' + name + '"/>';
+     s += '</div>';
+     return s;
+ }
+
+ function carouselItem(imgName, number, active='') {
+     var s = ''
+     + '     <div class="carousel-item ' + active + '">'
+     + '        <div class="w-100 img-thumbnail img-responsive" >'
+     + '           <img class="d-block w-100 img-fluid rounded" src="' + imgDir + imgName + '" alt="Immagine ' + number + '">'
+     + '        </div>'
+     + '        <div class="carousel-caption ">'
+     + '        <h6>Immagine ' + number + '</h6>'
+     + '        </div>'
+     + '     </div>';
+//     s += '<div class="img-thumbnail img-responsive" >';
+//     s += '<img class="img-fluid rounded" style="width: 100%;" src="' + imgDir + name + '" alt="' + name + '"/>';
+//     s += '</div>';
+     return s;
+ }
