@@ -75,12 +75,12 @@ paragraphs['HOME'] = 'Benvenuti e benvenute nel mondo dell’<i>Avventura Dadosa
 + 'Il modo con cui dovrete svolgere le prove sarà specificato di volta in volta all’interno di ogni Paragrafo.<br>In alcuni casi sarà necessario inviare una soluzione al bot del Produttore, mentre in altri casi la soluzione degli enigmi sarà la chiave per sbloccare nuovi Paragrafi: tutto ciò sarà comunque spiegato all’interno di ogni singola prova.-p-'
 + 'Siete pronti?<br>E allora diamo ufficialmente il via alla Competizione!-p-Ecco le chiavi dei sei mondi:'
 + '<ol>'
-+ '<li><b>La Cantatrice Calva</b>       <code>AAAH</code></li>'
-+ '<li><b>I Fisici</b>                  <code>BOOM</code></li>'
-+ '<li><b>Le Mosche</b>                 <code>BZZZ</code></li>'
-+ '<li><b>Giovanna</b>                  <code>JEAN</code></li>'
-+ '<li><b>Un Giorno Qualunque</b>       <code>WHEN</code></li>'
-+ '<li><b>Hai saputo di Charlie?</b>    <code>PSST</code></li>'
++ '<li><b>La Cantatrice Calva</b>      → <code>AAAH</code></li>'
++ '<li><b>I Fisici</b>                 → <code>BOOM</code></li>'
++ '<li><b>Le Mosche</b>                → <code>BZZZ</code></li>'
++ '<li><b>Giovanna</b>                 → <code>JEAN</code></li>'
++ '<li><b>Un Giorno Qualunque</b>      → <code>WHEN</code></li>'
++ '<li><b>Hai saputo di Charley?</b>   → <code>PSST</code></li>'
 + '</ol>';
 
 //////////////////////
@@ -166,6 +166,11 @@ paragraphs['0572'] = smmBadge() + prdBadge() + '-p-' + quote('Il pesce era fresc
 paragraphs['349C'] = smmBadge() + '-p-' + quote('Manca citazione')
 + '';
 
+paragraphs['SBEM'] = quote('- Non è di qua, ma è di là!<br>- Non è di qua, ma è di là!<br>- Non è di qua, ma è di là!<br>- Non è di qua, ma è d...')
++ 'Vi trovate catapultati in un tipico salotto inglese. Interno, borghese, inglese, con poltrone inglesi. Serata inglese. Il signor Smith, Inglese, nella sua poltrona, inglese, fuma la sua pipa, inglese. Legge un giornale, inglese, seduto accanto al fuoco, inglese.-p-Raccogliete in questo Paragrafo il <b>fuoco</b>, l’Oggetto Speciale del Mondo de <i>La Cantatrice Calva</i>.';
+
+paragraphs['FIRE'] = getFinalObjectParagraph('fuoco', "La Cantatrice Calva");
+
 //////////////
 // I FISICI //
 //////////////
@@ -213,17 +218,18 @@ paragraphs['9786'] = smmBadge() + '-p-' + quote('Manca citazione')
 + 'Se volete parlare con la figura di sinistra, andate al Paragrafo <code>T4BG</code>.<br>'
 + 'Se volete parlare con la figura di destra, andate al Paragrafo <code>R8Z0</code>.';
 
-paragraphs['T4BG'] = quote('Manca citazione')
-+ 'Newton'
+paragraphs['T4BG'] = quote('E così al giorno d\'oggi qualsiasi imbecille può far brillare una lampadina elettrica - o far esplodere una bomba atomica.')
++ 'Vi trovate davanti ad un uomo piuttosto strano, che si muove avanti e indietro seguendo delle immaginarie linee perpendicolari, mentre il braccio è rivolto in una seconda direzione e la testa in una terza. Vi avvicinate, con prudenza, chiedendogli gentilmente se potete scambiare due parole con lui. Vi lascia un bigliettino in mano, e poi se ne esce.'
 + img('Code1.png');
 
-paragraphs['R8Z0'] = quote('Manca citazione')
-+ 'Einstein'
+paragraphs['R8Z0'] = quote('- Mi sono svegliato.<br>- Ma come, professore.<br>- Ho suonato bene?<br>- Magnificamente, professore.')
++ 'Vi trovate davanti ad un uomo piuttosto strano, che si muove avanti e indietro spalancando le braccia come se fosse il direttore di un’orchestra, mentre la sua testa si muove in maniera circolare. Vi avvicinate, con prudenza, chiedendogli gentilmente se potete scambiare due parole con lui. Vi lascia un bigliettino in mano, e poi se ne esce.'
 + img('Code2.png');
 
-paragraphs['5395'] = quote('- È già buio.<br>- Fa notte presto, ormai.<br>- Aspetta che accendo la luce.</br>- Non ancora. Vieni qui da me.')
-+ '';
-// TODO Prova
+// MAcchie di Rorschach
+paragraphs['5395'] = prdBadge() + '-p-' + quote('- Pazzi, eppure saggi.<br>- Prigionieri, eppure liberi.<br>- Fisici, eppure innocenti.')
++ 'Entrate in una stanza completamente bianca. Improvvisamente, la porta si chiude dietro di voi. Le luci si spengono, e vi ritrovate al buio. Una dopo l’altra, cominciano a comparire, proiettate sulla parete bianca, una serie di immagini. Sono macchie. Che cosa vedete nelle macchie?-p-'
++ 'Per vincere questa sfida, dovrete accedere ad un file multimediale contenuto nel materiale del Drammaturgo. Questo file si chiama “Macchie”. Si tratta di una presentazione che può essere condivisa con ciascuno dei quattro membri, e contiene quattro slide. All’interno di ciascuna di queste slide troverete una serie di sette macchie di Rorschach. Lo scopo è cercare di sovrapporre tre macchie in maniera corretta affinché compaiano dei soggetti precisi. Essendoci quattro slide, ogni membro del gruppo può provare a fare la composizione di una slide (ovviamente, se qualcun* finisse prima, può aiutare chi si trova in difficoltà).<br>Quando avrete trovato i quattro soggetti, comunicateli al Produttore.';
 
 paragraphs['9BS8'] = quote('- E il sistema di tutte le invenzioni possibili?<br>- Anche quello esiste.')
 + '';
@@ -231,11 +237,11 @@ paragraphs['9BS8'] = quote('- E il sistema di tutte le invenzioni possibili?<br>
 paragraphs['82U1'] = quote('- E il sistema di tutte le invenzioni possibili?<br>- Anche quello esiste.')
 + '';
 
-paragraphs['3V1W'] = quote('- E il sistema di tutte le invenzioni possibili?<br>- Anche quello esiste.')
-+ '';
+paragraphs['3V1W'] = quote('Volete che gli assassini che abbiamo compiuto non abbiano alcun senso? O quel che abbiamo commesso era un sacrificio, oppure era un assassinio. O noi restiamo in questo manicomio, oppure il mondo intero diverrà un manicomio. O noi ci cancelliamo dalla memoria degli uomini, oppure tutta l\'umanità verrà cancellata dalla faccia della terra.')
++ 'Forse sarà meglio allontanarsi da questa villa. Accade spesso, quando si rimane per un lungo periodo dentro un manicomio, che non si sappia più chi è matto e chi non lo è… e noi non lo vogliamo, giusto?-p-'
++ 'Raccogliete in questo Paragrafo il <b>Sistema di tutte le invenzioni possibili</b>, L’Oggetto Speciale del Mondo de <i>I Fisici</i>.';
 
-paragraphs['IDEA'] = quote('- E il sistema di tutte le invenzioni possibili?<br>- Anche quello esiste.')
-+ '';
+paragraphs['IDEA'] = getFinalObjectParagraph('sistema di tutte le invenzioni possibili', "I Fisici");
 
 ////////////////////
 // LE MOSCHE ///
@@ -302,9 +308,11 @@ paragraphs['2414'] = 'Prima metà oggetto finale: <code>BV**</code>.';
 
 paragraphs['C99K'] = 'Seconda metà oggetto finale: <code>**8V</code>.';
 
-paragraphs['BV8V'] = 'Evvai! Raccogli la mela del pedagogo.';
 
-paragraphs['MELA'] = scnBadge() + 'YESSS 1000 punti!';
+paragraphs['BV8V'] = quote('Addio, miei uomini, tentate di vivere. Tutto è nuovo qui, tutto è da ricominciare. Un giorno, nella città di Sciro infestata dai topi giunse un suonatore di flauto che si mise a suonare, e itopi andarono ad affollarsi intorno a lui. Disse agli uomini di Sciro: “scostatevi!”. E i topi drizzarono la testa. E il suonatore di Flauto scomparve con i topi per sempre.')
++ 'Anche grazie al vostro coraggio e alla vostra capacità di resistere alle prove più dure (<i>Ehi, ti è arrivato un messaggio… Ciao!</i>), Argo è stata salvata dall’epidemia che imperversava. Ora non vi resta che andarvene da questo Mondo e portarvi dietro tutti i mali che hanno afflitto la città per molti anni.-p-Raccogliete in questo Paragrafo la <b>mela Del Pedagogo</b>, l’Oggetto Speciale del Mondo de <i>Le Mosche</i>.';
+
+paragraphs['MELA'] = getFinalObjectParagraph('mela del Pedagogo', "Le Mosche");
 
 ////////////////
 // GIOVANNA //
@@ -390,10 +398,10 @@ paragraphs['LZ55'] = quote('- Sembra che stia sorridendo, non è vero?<br>- Sì,
 paragraphs['M6C4'] = quote('- Non la vinceremo mai.<br>- No, signore.')
 + '-p-Il quarto carattere del codice del Paragrafo finale di questo Mondo è: <code>***9</code>.';
 
-paragraphs['T4N9'] = quote('Bisognerà avere del coraggio, ne avrò tanto io.');
+paragraphs['T4N9'] = quote('Bisognerà avere del coraggio, ne avrò tanto io.')
++ 'Raccogliete in questo Paragrafo, con molta cura, una piccola <b>allodola</b>, l’Oggetto Speciale del Mondo di <i>Giovanna</i>. ';
 
-paragraphs['RAIN'] = 'Avete sbloccato l\'allodola.-p-'
-+ 'Congratulazioni! Avete terminato il Mondo di <i>Giovanna</i>, ricevendo <b>1000</b> punti bonus.';
+paragraphs['RAIN'] = getFinalObjectParagraph('allodola', "Giovanna");
 
 //////////////////////////
 // UN GIORNO QUALUNQUE ///
@@ -404,7 +412,7 @@ paragraphs['WHEN'] = quote('È una casa troppo grande, due piani, un mucchio di 
 + 'Se pensi che ci sia molto da fare, vai al paragrafo <code>2385</code>.<br>'
 + 'Se pensi che non ci sia nulla da fare, vai al paragrafo <code>00Q0</code>.';
 
-paragraphs['00Q0'] = prdBadge() + '-p-' + quote('Avete un’idea strana della disperazione, voialtri. Quando uno è disperato, magari non fa mica delle cose tanto diverse dal solito. Magari fa quello che ha fatto per tutta la vita.')
+paragraphs['00Q0'] = prdBadge() + smmBadge() + '-p-' + quote('Avete un’idea strana della disperazione, voialtri. Quando uno è disperato, magari non fa mica delle cose tanto diverse dal solito. Magari fa quello che ha fatto per tutta la vita.')
 + 'È giunto il momento di prendersi una pausa.<br>Contattate il Produttore e comunicategli di voler risolvere la priva legata a questo Paragrafo, con codice <code>00Q0</code>. Passato un certo periodo, egli vi darà la soluzione per accedere ad un’altra stanza. Sfruttate questa pausa per bere un caffè, fare meditazione, andare in bagno o, se preferite, per fare un’altra sfida del Social Media Manager.';
 
 paragraphs['2385'] = smmBadge() + '-p-' + quote('Cesare? Se ne infischia. È stanco di lei. Non le prenderà alcun appartamento.')
@@ -424,17 +432,80 @@ paragraphs['WAIT'] = quote('Fragola.')
 paragraphs['WALL'] = quote('Panna.')
 + 'La seconda metà del codice del Paragrafo finale di questo Mondo è: <code>PT</code>';
 
-paragraphs['6GPT'] = quote('Fragola e panna.')
-+ 'Una coppa fragola e panna, per favore.';
+paragraphs['6GPT'] = quote('- Poverina. Non ti avvilire così. Guarda che faccia che hai, sei tutta fredda, un pezzo di ghiaccio. Ma se non è successo niente. E tutto come è stato sempre. In questa nostra vita, è molto raro che succeda qualcosa di nuovo.<br>- Sì. È rarissimo. E anche quando succede qualcosa di nuovo, la vita non cambia. Rimane com\'è. Schifosa.')
++ 'Difficile decidere cosa fare. Agire. Non agire. Fa qualche differenza?-p-Beh, mentre ci pensate, raccogliete in questo Paragrafo una <b>coppa fragola e panna</b>, l’Oggetto Speciale del mondo di <i>Un Giorno Qualunque</i>.';
 
-paragraphs['ZU28'] = scnBadge() + '-p-'
-+ '1000 punti conquistati, Mondo <i>Un Giorno Qualunque</i> completato.';
+paragraphs['YUMM'] = getFinalObjectParagraph('coppa fragola e panna', "Un Giorno Qualunque");
 
 ////////////////////////////
-// HAI SAPUTO DI CHARLIE? //
+// HAI SAPUTO DI Charley? //
 ////////////////////////////
 
+paragraphs['PSST'] = prdBadge() + smmBadge('Hai saputo di Charley?') + '-p-' + quote('- Hai saputo di Charley?<br>- Cosa?<br>- Gli hanno sparato.<br><br>- Ah.') + '-p-'
++ 'Questo è un Mondo un po’ particolare. All’interno di questo Mondo, infatti, non dovrete svolgere differenti prove in sequenza, bensì un’unica prova. Quando avrete risolto questa prova, otterrete l’Oggetto Speciale di questo mondo. Il vostro compito è risolvere il giallo della morte di Charley.-p-'
++ 'È il 9 luglio. Arrivati sul luogo del delitto, un delizioso appartamento in un condominio con un ampio giardino nella periferia di New York, parlate con i responsabili delle indagini, gli ispettori Winston e Welch. Vi riferiscono che il morto è Charley, un simpatico uomo di mezz’età, un po’ borghese ma tutto sommato a posto. Qualche mese fa c’erano stati dei rumori sospetti, degli spari, ma alla fine si era risolto senza grossi problemi. Comunque, quella era un’altra storia e non ha nulla a che vedere con questa. Il cadavere è stato ritrovato da Myra, sua moglie, all’ingresso della casa. Lo ha trovato alle 22.30, dopo essere tornata dal circolo del Bridge (alibi confermato). Dovrete portare avanti questa indagine aiutando gli ispettori a fare chiarezza sul caso.-p-'
++ '<h4>Primo passaggio</h4>'
++ 'Avrete accesso a <b>sei diverse stanze</b> della casa, i cui codici-Paragrafo saranno scritti al termine di questo Paragrafo. All’interno di ognuno di questi paragrafi troverete una fotografia della stanza.<br>'
++ 'L’indagine procede in questo modo:'
++ '<ul>'
++ '<li>Per prima cosa dovrete raccogliere indizi utili all’interno delle varie stanze. Per fare ciò dovrete prima entrare nella stanza e poi provare a esaminare gli oggetti che vedete nell’immagine, tramite il bot dello Scenografo.<br>'
++ '<def>Ad esempio, se io volessi esaminare la porta in questo paragrafo (è solo un esempio, in questa stanza non ci sono indizi), provo a raccogliere in questa stanza (<code>PSST</code>) l’oggetto <i>“Porta”</i>.</def>'
++ '<li>Se è presente un indizio correlato alla porta, il bot dello Scenografo mi darà, insieme all’oggetto raccolto, il codice di un nuovo Paragrafo. All’interno di questo paragrafo troverò una breve descrizione dell’indizio scoperto e, in particolare, troverete una parola scritta in stampatello maiuscolo. Quella parola sarà la “Parola Chiave” dell’indizio.'
++ '<def>Ad esempio, se la porta fosse effettivamente un indizio, il bot dello Scenografo mi permetterà di raccogliere la Porta e mi darà il codice <code>DOOR</code>. Inserendo tale codice nel motore di ricerca, mi trovo in un Paragrafo con questa descrizione: “Esaminando la porta, ti rendi conto che la SERRATURA non è stata forzata”. In questo caso, la Parola Chiave sarà “serratura”.</def>'
++ '<li>Dopo aver trovato una Parola Chiave, dovrete tornare indietro (scegliete voi liberamente se tornare alla Porta d’Ingresso o alla stanza che stavate esaminando) per cercare altri indizi e, di conseguenza, parole-chiave. Ricordate una cosa importante: in ogni stanza è presente <b>almeno un indizio</b> e <b>massimo tre indizi</b>.'
++ '<li>Quando avrete raccolto almeno otto parole-chiave, potete tornare in questo Paragrafo, e risolverlo tramite l’app del Produttore. Vi sarà chiesto di inserire almeno otto Parole-Chiave. Se le inserirete correttamente, otterrete il codice del Paragrafo dove potrete raccogliere l’Oggetto Speciale di questo Mondo.'
++ '</ul>'
++ '<h4>Secondo Passaggio</h4>'
++ '<ul>'
++ '<li>Ogni indizio vi permette di ricostruire, un pezzo per volta, la possibile dinamica degli eventi. Magari capirete tutto, magari non capirete nulla, ma in entrambi i casi potete vincere l’Oggetto Speciale grazie alle Parole Chiave raccolte. C’è un ulteriore modo, per fare punti in questo mondo. Se pensate di aver capito come si sono svolti i fatti, dovrete sfruttare il Social Media Manager. Egli dovrà inviare all’account Instagram <code>@game_of_dice</code> un messaggio il cui titolo è <i>“Hai saputo di Charley?”</i> e di seguito provare a descrivere con minuzia di dettagli la dinamica dell’omicidio. In questo testo è buona cosa menzionare tutte le parole chiave che avrete trovato (con una possibile giustificazione del perché e come questi indizi abbiano influenzato la dinamica della vicenda). Ad ogni squadra sarà dato un punteggio extra sulla base di quanto vicina è andata alla soluzione reale!</li>'
++ '</ul>-p-'
++ 'Se tutto è chiaro… potete cominciare l’indagine!-p-'
++ 'I codici delle stanze sono i seguenti:'
++ '<ol type=\'I\'>'
++ '<li><b>Camera da letto</b> → <code>5D5G</code>'
++ '<li><b>Cucina</b> → <code>9E4R</code>'
++ '<li><b>Salotto</b> → <code>8YCO</code>'
++ '<li><b>Bagno</b> → <code>4MN2</code>'
++ '<li><b>Mansarda</b> → <code>6F1J</code>'
++ '<li><b>Studio</b> → <code>17BU</code>'
++ '</ol>';
 
+// Cucina
+paragraphs['9E4R'] = img('Cucina.jpg');
+
+// Mansarda
+paragraphs['6F1J'] = img('Mansarda.jpg');
+
+// Salotto
+paragraphs['8YCO'] = img('Salotto.jpg');
+
+// Bagno
+paragraphs['4MN2'] = img('Bagno.jpg');
+
+// Camera da letto
+paragraphs['5D5G'] = img('Camera da letto.jpg');
+
+// Studio
+paragraphs['17BU'] = img('Studio.jpg');
+
+paragraphs['XHJK'] = scnBadge('Frigorifero') + '-p-Aprendo il frigorifero, di primo impatto non notate nulla di strano. Prestando però maggiore attenzione vi rendete conto di un dettaglio non da poco. C’è una <b>BOTTIGLIA</b> di vino rosso consumata a metà. Strano, pensate, Myra non beve, e solitamente non beve nemmeno Charley, se non nelle occasioni speciali.';
+paragraphs['BRBL'] = scnBadge('Pattumiera') + '-p-Aprite la pattumiera della Cucina, notate subito la presenza di alcuni <b>COCCI</b>. Con un po’ di pazienza provate a metterle insieme e vi rendete conto che si tratta di un vaso trasparente, rotto. Sarà forse il frutto di una colluttazione? Con un po’ di attenzione notate un altro dettaglio molto importante. Non si tratta di un vaso qualunque, ma di un pregiato vaso da salotto.';
+paragraphs['IWN2'] = scnBadge('Lavandino') + '-p-Nel lavandino trovate due <b>BICCHIERI</b> di vino.';
+paragraphs['MKDO'] = scnBadge('Divano') + '-p-Grazie al vostro incredibile fiuto, vi viene in mente di provare a guardare se ci sia qualcosa sotto il divano-letto. A tentoni con le mani trovate una <b>VIDEOCAMERA</b> rotta. Purtroppo non riuscite a vedere se ci siano sopra delle registrazioni.';
+paragraphs['C7ER'] = scnBadge('Scaffale') + '-p-Prestando particolare attenzione allo scaffale, trovate un <b>LIBRO</b> dalla copertina insolita, in mezzo ad una serie di romanzi Harmony. Il titolo è il seguente: “Dsm-5. Manuale Diagnostico e Statistico dei Disturbi mentali”. Trovate un segnalibro al capitolo “Bipolarismo”.';
+paragraphs['PEG5'] = scnBadge('Finestra') + '-p-Ci voleva un certo acume per arrivare a capire che l’unico modo che aveva l’assassino per sbarazzarsi dell’arma del delitto, senza farsi notare era con il rischio di incontrare qualcuno uscendo dall’appartamento del condominio era… lanciarlo fuori dalla finestra. Probabilmente l’intenzione era di recuperarlo dal giardino antistante l’edificio. Sfortuna ha voluto che quel <b>COLTELLO</b> sia rimasto impigliato tra i rami del grande platano del giardino.';
+paragraphs['ULU3'] = scnBadge('Caminetto') + '-p-In mezzo alla cenere del camino trovate un <b>LEMBO</b> di stoffa. Probabilmente apparteneva ad uno strofinaccio, che è stato bruciato. Chissà come mai.';
+paragraphs['29SS'] = scnBadge('WC') + '-p-Un dettaglio cattura la vostra attenzione. La <b>TAVOLETTA</b> del bagno è abbassata. Il bagno del piano di sotto lo usa solo Charley mentre guarda la televisione in salotto, quindi di solito è alzata.';
+paragraphs['3CFG'] = scnBadge('Armadietto delle medicine') + '-p-Aprendo l’armadietto, trovate una serie di farmaci diversi, tachipirine, gastroprotettori, farmaci per la pressione… nulla di strano. Con uno sguardo più attento, però, vi rendete conto che c’è un flacone strano. Lo prendete in mano e leggete l’etichetta. Si tratta di <b>LITIO</b>. Un farmaco utilizzato per le persone affette da Disturbi dell’umore, come la depressione e il bipolarismo.';
+paragraphs['91J1'] = scnBadge('Quadro') + '-p-Un grande classico. Cosa ci sta dietro al quadro della camera da letto? Una <b>CASSAFORTE</b>. Quasi banale, oserei dire. Il vero problema è capire il codice. Se mai dovessi trovarlo… Provate a inserire il codice nello spazio di ricerca per sbloccare il Paragrafo dove potrete raccogliere il contenuto della cassaforte.';
+paragraphs['RT3W'] = scnBadge('Computer') + '-p-Aprendo il pc, trovate questo <b>CALENDARIO</b> virtuale. Chissà se può esservi utile a capire qualcosa.-p-' + img('Calendario.png');
+
+paragraphs['2107'] = 'Solo Charley poteva scegliere come password per la cassaforte data di nascita di suo figlio.<br>Il rischio di scoprirla era veramente alto… e voi ci siete riuscit* grazie al vostro incredibile acume! All’interno della cassaforte trovate un <b>GIOIELLO</b>. Si tratta di un paio di orecchini dorati, devono valere molto.-p-Strano, però. Vi sembrava di ricordare che Myra fosse allergica all’oro.';
+
+paragraphs['BOHH'] = quote('(knock knock)<br><br>- Sono Myra! Aprite per favore!')
++ 'Il vostro fiuto per la verità vi ha aiutato a giungere alla soluzione… forse. La verità è una questione più complessa di quello che sembra, ma per oggi ci accontenteremo della vostra soluzione.-p-Raccogliete in questa stanza un <b>cuscino di Cocca</b>, l’Oggetto Speciale del Mondo di <i>Hai Saputo di Charley?</i>.';
+
+paragraphs['PUFF'] = getFinalObjectParagraph('cuscino di Cocca', "Hai saputo di Charley?");
 
 
 //////////////////////

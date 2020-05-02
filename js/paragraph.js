@@ -34,3 +34,12 @@ function writeParagraphErrorMessage() {
 	writeRowLarge('<p>La pagina che stavi cercando non è stata trovata.</p>');
 	writeRowLarge('<a href="../index.html" class="btn btn-primary">Torna all\'inizio</a>');
 }
+
+function getFinalObjectParagraph(objName, mondoName) {
+    var s = '';
+    s += scnBadge(objName);
+    s += '<h2>Congratulazioni! &#127881;</h2>-p-'
+    s += 'Raccogliendo l\'oggetto <b>' + objName + '</b> la vostra squadra ha completato il Mondo <i>\"' + mondoName + '\"</i> guadagnando <b>1000</b> punti.-p-';
+    s += 'Potete tornare al Paragrafo <code>HOME</code> digitando il codice corrispondente oppure cliccando <a href="parPage.html?code=HOME" >qui</a>.'
+    return s;
+}

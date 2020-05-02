@@ -7,7 +7,7 @@ function getBadge(text, type, alertText='') {
     s += 'title=\"' + alertText + '\"';
     s += '>';
     s += text;
-    s += '</a>';
+    s += '</a>   ';
     return s;
 }
 
@@ -27,8 +27,13 @@ function smmBadge(challengeMessage='') {
  * Restituisce una stringa che rappresenta il badge per indicare che quel paragrafo
  * è stato sbloccato dallo Scenografo.
  */
-function scnBadge() {
-    return getBadge("Scenografo", "success");
+function scnBadge(objName='') {
+    if (objName == '') {
+        return getBadge("Scenografo", "success");
+    } else {
+        var alertText = 'Questo Paragrafo è associato all\'oggetto: ' + objName + '.';
+        return getBadge("Scenografo", "success", alertText);
+    }
 }
 
 /**
