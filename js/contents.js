@@ -17,10 +17,22 @@ var assetsDir = '../assets/';
 var imgDir = assetsDir + 'img/';
 var soundDir = assetsDir + 'sound/';
 
-function img(name) {
+function img(imgName) {
     var s = '';
     s += '<div class="img-thumbnail img-responsive" >';
-    s += '<img class="img-fluid rounded" style="width: 100%;" src="' + imgDir + name + '" alt="' + name + '"/>';
+    s += '<img class="img-fluid rounded w-100" src="' + imgDir + imgName + '" alt="' + imgName + '"/>';
+    s += '</div>';
+    return s;
+}
+
+function imgTransition(imgMouseOut, imgMouseOver) {
+    var mouseOutSrc = imgDir + imgMouseOut;
+    var mouseOverSrc = imgDir + imgMouseOver;
+    var s = '';
+    s += '<div class="img-thumbnail img-responsive" >';
+    s += '<img class="img-fluid rounded w-100" src="' + mouseOutSrc + '" alt="' + imgMouseOut + '"'
+        + ' onMouseOver="this.src=\'' + mouseOverSrc + '\'"'
+        + ' onMouseOut="this.src=\'' + mouseOutSrc + '\'" />';
     s += '</div>';
     return s;
 }

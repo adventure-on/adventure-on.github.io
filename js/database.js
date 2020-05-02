@@ -117,8 +117,8 @@ paragraphs['1812'] = quote('- Perché solo la Marina è sana in Inghilterra!<br>
 + 'Quando pensate di aver identificato le due notizie false, combinate i rispettivi codici (in un modo o nell\'altro...) per ottenere il codice del prossimo Paragrafo.';
 
 paragraphs['8E1W'] = quote('Ti dico che è una chiocciola!')
-+ 'Siamo alle solite.<br>Qualcuno vede chiocciole, qualcuno vede tartarughe.-p-Un momento. Io vedo solamente tartarughe. C’è anche una chiocciola in giro?-p-Individua la chiocciola all’interno del disegno e inserisci le coordinate relative al quadrante in cui si trova per sbloccare il prossimo Paragrafo.-p-'
-+ img('ChiocciolaTarta.jpg');
++ 'Siamo alle solite.<br>Qualcuno vede chiocciole, qualcuno vede tartarughe.-p-Un momento. Io vedo solamente tartarughe. C’è anche una chiocciola in giro?-p-Individua la chiocciola all’interno del disegno e utilizza le coordinate relative al quadrante in cui si trova per sbloccare il prossimo Paragrafo.-p-'
++ imgTransition('TartaChioccia_noGrid.png', 'TartaChioccia_withGrid.png');
 
 paragraphs['0572'] = smmBadge() + prdBadge() + '-p-' + quote('Il pesce era fresco. Mi sono persino leccata i baffi. Ne ho preso due volte. Anzi, tre. Mi farà andar di corpo. Anche tu ne hai preso tre volte. Però la terza volta ne hai preso meno delle due volte precedenti mentre io ne ho preso molto di più. Ho mangiato meglio di te questa sera. Come mai? Di solito tu mangi più di me. Non è certo l\'appetito che ti manca.')
 + 'In una cucina inglese non è facile fare da mangiare egregiamente per degli ospiti inglesi. La cuoca e cameriera, Mary, ha raccolto le inglesi richieste dei suoi commensali. Potete aiutarla a preparare un menù che soddisfi tutti gli ospiti? Troverete il ricettario all’interno del materiale del Drammaturgo. Dovete preparare un menù completo che preveda <b>Portata Principale</b>, <b>Contorno di Patate</b>, <b>Dolce</b> e <b>Drink</b> di accompagnamento. Queste sono le richieste degli ospiti.-p-'
@@ -163,6 +163,9 @@ paragraphs['0572'] = smmBadge() + prdBadge() + '-p-' + quote('Il pesce era fresc
 
 + 'Quando avete preparato il menù inviatelo al bot <code>produttore_GameBot</code>.';
 
+paragraphs['349C'] = smmBadge() + '-p-' + quote('Manca citazione')
++ '';
+
 //////////////
 // I FISICI //
 //////////////
@@ -172,7 +175,7 @@ paragraphs['BOOM'] = quote('Prego, Signori, da questa parte. Non spingete. Il pa
 + 'Se desiderate visitare la Galleria d’Arte di Matilda Von Zahn, andate al capitolo <code>9WPQ</code>.<br>'
 + 'Se desiderate invece fare un giro nei dintorni alla ricerca di qualche curioso ospite, andare al capitolo <code>9786</code>.';
 
-paragraphs['9WPQ'] = prdBadge() + smmBadge() + '-p-' + quote('Mio padre, il consigliere Augusto Von Zahnd abitava in questa villa, prima che io lo trasformassi in un sanatorio.')
+paragraphs['9WPQ'] = prdBadge() + smmBadge() + '-p-' + quote('Mio padre, il consigliere Augusto Von Zahnd abitava in questa villa, prima che io la trasformassi in un sanatorio.')
 + 'Per poter svolgere questa prova, dovete aprire l’app “<i>Google Arts & Culture</i>”. All’interno dell’App dovete scaricare la funzione “<i>Pocket Gallery</i>” sul vostro cellulare. All’interno dei possibili percorsi visitabili all’interno della Pocket Galley, scricare il percorso “<i>The Art of Colour</i>” e seguite le indicazioni dell’App per caricare la mostra.-p-'
 + 'Questa splendida mostra è stata realizzata anche grazie all’aiuto della nostra Egregia Dottoressa, che ha saputo consigliare con giudizio… il signor MoMa.<br>All’interno di questa mostra, troverete quattro stanze tematiche, divise in quattro colori. Per comodità, le chiameremo in questo modo:'
 + '<ul><li>Rosso</li>'
@@ -243,14 +246,16 @@ paragraphs['BZZZ'] = quote('Non avete nulla da temere. Oggi è la festa dei Mort
 + 'Per andare al Tempio Sacro, vai al Paragrafo <code>RYXM</code>.<br>'
 + 'Per andare nella Piazza del Mercato, vai al Paragrafo <code>F3X9</code>.';
 
-paragraphs['F3X9'] = quote('Sei bella Elettra, più di me. Ma i miei baci ti faranno invecchiare.') + '';
+paragraphs['F3X9'] = quote('Sei bella Elettra, più di me. Ma i miei baci ti faranno invecchiare.')
++ audio('Erinni1.mp3');
 // TODO Audio ERINNI
 
-paragraphs['J216'] = quote('Mi rotolerò sul loro ventre e sul loro petto come un torrente sui ciottoli.') + '';
+paragraphs['J216'] = quote('Mi rotolerò sul loro ventre e sul loro petto come un torrente sui ciottoli.')
++ audio('Erinni2.mp3');
 // TODO Audio ERINNI
 
-paragraphs['4432'] = quote('Prenderò sulle ginocchia la sua testa pallida, accarezzerò i suoi capelli.') + '';
-// TODO Audio ERINNI
+paragraphs['4432'] = quote('Prenderò sulle ginocchia la sua testa pallida, accarezzerò i suoi capelli.')
++ audio('Erinni3.mp3');
 
 
 paragraphs['3373'] = smmBadge() + '-p-IL RITUALE'; // TODO senza prova
@@ -407,7 +412,7 @@ paragraphs['00Q0'] = prdBadge() + '-p-' + quote('Avete un’idea strana della di
 paragraphs['2385'] = smmBadge() + '-p-' + quote('Cesare? Se ne infischia. È stanco di lei. Non le prenderà alcun appartamento.')
 + 'È molto importante sistemare la casa prima che torni il Signor Cesare. Passare l’aspirapolvere, pulire i vetri, rimuovere la muffa e sistemare ogni cosa al suo posto. A proposito: dove son finite le ciabatte di Cesare? Bisogna ritrovarle al più presto, si arrabbia sempre quando non trova le sue ciabatte!-p-'
 + 'Trova le ciabatte nella seguente immagine. Le coordinate del quadrante contenente le ciabatte ti permetteranno di accedere al prossimo paragrafo.'
-+ img('Ciabatte.jpg');
++ imgTransition('Ciabatte_noGrid.png', 'Ciabatte_withGrid.png');
 
 paragraphs['NIUW'] = '';
 
