@@ -569,12 +569,12 @@ paragraphs['LEG0'] = quote('Now and then I think of when we were together<br>lik
 + '<li>confrontare con la griglia della prima pagina la posizione del pezzo mancante</li>'
 + '<li>comporre il codice del prossimo paragrafo mettendo in ordine i numeri corrispondenti ai quattro pezzi mancanti (seguendo l’ordine delle slide).</li>'
 + '</ol>-p-'
-+ 'Consiglio: giacché si tratta di quattro puzzle all’interno di quattro slide diverse in una presentazione drive, in questo caso potrebbe essere utile inviare una copia di questa presentazione a ogni membro della squadra in modo che ognuno possa risolverne una slide (e se qualcuno finisce prima, possa aiutare un compagno. <i>Together is better!</i>';
++ 'Consiglio: giacché si tratta di quattro puzzle all’interno di quattro slide diverse in una presentazione drive, in questo caso potrebbe essere utile inviare una copia di questa presentazione a ogni membro della squadra in modo che ognuno possa risolverne una slide (e se qualcuno finisce prima, possa aiutare un compagno). <i>Together is better!</i>';
 
 paragraphs['WAIT'] = quote('Fragola.')
 + 'La prima metà del codice del Paragrafo finale di questo Mondo è: <code>6G**</code>';
 
-paragraphs['WALL'] = quote('Panna.')
+paragraphs['6116'] = quote('Panna.')
 + 'La seconda metà del codice del Paragrafo finale di questo Mondo è: <code>**PT</code>';
 
 paragraphs['6GPT'] = quote('- Poverina. Non ti avvilire così. Guarda che faccia che hai, sei tutta fredda, un pezzo di ghiaccio. Ma se non è successo niente. E tutto come è stato sempre. In questa nostra vita, è molto raro che succeda qualcosa di nuovo.<br>- Sì. È rarissimo. E anche quando succede qualcosa di nuovo, la vita non cambia. Rimane com\'è. Schifosa.')
