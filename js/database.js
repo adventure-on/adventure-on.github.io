@@ -72,7 +72,7 @@ paragraphs['RAMO'] = scnBadge() + '-p-Ok, bene.-p-E ora cosa pensate di farne?-p
 + 'Ma addirittura pretendere che questo vi conduca ad un Paragrafo interessante?-p-'
 + 'Per piacere.';
 
-paragraphs['TEST'] = quote('Ceci n\'est pas un paragraphe.');
+paragraphs['TEST'] = prdBadge() + '-p-' + quote('Ceci n\'est pas un paragraphe.');
 
 // Si sblocca con la prova base del bot
 paragraphs['ABCD'] = scnBadge() + '-p-Hey tu!<br>Sì sì, dico proprio a te!<br>Dove pensi di andare?-p-'
@@ -201,8 +201,14 @@ paragraphs['0572'] = smmBadge() + prdBadge() + '-p-' + quote('Il pesce era fresc
 
 + 'Quando avete preparato il menù inviatelo al bot <code>produttore_GameBot</code>.';
 
-paragraphs['349C'] = smmBadge() + '-p-' + quote('Manca citazione')
-+ '';
+paragraphs['349C'] = smmBadge() + '-p-' + quote('Manca citazione') // TODO
++ 'Pausa.-p-Fermatevi un momento, rilassatevi, alzatevi dalla scrivania e fate due passi.-p-Poi però tornate qui e dirigetevi al Paragrafo <code>8GJJ</code>.';
+
+paragraphs['R11F'] = quote('Manca citazione') // TODO
++ 'I due caratteri estremi del codice del Paragrafo finale di questo Mondo sono: <code>S**M</code>.';
+
+paragraphs['8GJJ'] = quote('Manca citazione') // TODO
++ 'I due caratteri medi del codice del Paragrafo finale di questo Mondo sono: <code>*BE*</code>.';
 
 paragraphs['SBEM'] = quote('- Non è di qua, ma è di là!<br>- Non è di qua, ma è di là!<br>- Non è di qua, ma è di là!<br>- Non è di qua, ma è d...')
 + 'Vi trovate catapultati in un tipico salotto inglese. Interno, borghese, inglese, con poltrone inglesi. Serata inglese. Il signor Smith, Inglese, nella sua poltrona, inglese, fuma la sua pipa, inglese. Legge un giornale, inglese, seduto accanto al fuoco, inglese.-p-Raccogliete in questo Paragrafo il <b>fuoco</b>, l’Oggetto Speciale del Mondo de <i>La Cantatrice Calva</i>.';
@@ -265,8 +271,9 @@ paragraphs['9WPQ'] = prdBadge() + smmBadge() + '-p-' + quote('Mio padre, il cons
 + '<li>Una stella</li>'
 + '</ol>-p-'
 + 'Quando avrete trovato tutti quanti gli elementi, inviate al Produttore il codice che si crea inserendo, nell’ordine, per ogni elemento, l’iniziale della stanza in cui si trova.<br>'
-+ '<i>Esempio:</i> se i primi due elementi fossero nella stanza rossa, i secondi in quella blu e verde, i terzi in quella gialla e i quarti in quella nera e bianca, il codice finale da inviare al bot sarebbe <b>RRBBGGNN</b>';
++ '<i>Esempio:</i> se i primi due elementi fossero nella stanza rossa, i secondi in quella blu e verde, i terzi in quella gialla e i quarti in quella nera e bianca, il codice finale da inviare al bot sarebbe <b>RRBBGGNN</b>.';
 
+// Ecg
 paragraphs['BE7E'] = smmBadge() + '-p-'
 + quote('Venga, signora Rose. Bisogna che si calmi, ecco tutto.')
 + 'Un buon personale sanitario deve sempre tenere monitorato uno degli organi più importanti, soprattutto nei pazienti che tendono ad agitarsi molto: il <b>cuore</b>.-p-Trovate, per terra, questo strano foglio. Cosa ci farà per terra?'
@@ -346,15 +353,16 @@ paragraphs['7737'] = quote('Mi rotolerò sul loro ventre e sul loro petto come u
 paragraphs['9832'] = quote('Prenderò sulle ginocchia la sua testa pallida, accarezzerò i suoi capelli.')
 + audio('Erinni3.mp3');
 
-
-paragraphs['8616'] = smmBadge() + '-p-IL RITUALE'; // TODO senza prova
+// Rituale
+paragraphs['8616'] = smmBadge() + '-p-' + quote('Voi, i dimenticati, gli abbandonati, i disillusi, voi che vi trascinate a fior di terra nel buio, in piedi! È la vostra festa.') + 'Sembra che stia succedendo qualcosa di importante in questo momento. Se volete partecipare anche voi al <b>Rituale</b>, il Social Media Manager della vostra squadra può inviare un messaggio con scritto “Rituale” all’account Instagram <code>@game_of_dice</code>. In alternativa, se volete proseguire, procedete al capitolo <code>2414</code>.';
 
 paragraphs['RYXM'] = smmBadge() + '-p-' + quote('Ah, che viaggio piacevole. E che bella fu la vostra ispirazione di venire qui, quando in Grecia ci sono più di cinquecento città con vini buoni, alberghi accoglienti e vie affollate. ‘Sta gente di montagna pare che non abbia mai visto un turista, dappertutto gli stessi gridi di spavento, lo stesso fuggi-fuggi. Puah.')
 + 'La piazza del mercato è decisamente sovraffollata, ma di mosche, non di uomini. Non si riesce praticamente a vedere alcunché. Difficile riuscire a trovare tesori rari all’interno di questo sciame di mosche. Tuttavia, se aveste la pazienza di soffermarvi per un momento con più attenzione, notereste una cosa importante: che tutte queste mosche sono accoppiate tra loro, tranne due, diverse da tutte le altre. Sapreste individuare quali sono?-p-'
 + 'Accedete alla cartella <code>XXXX</code>.-p-' // TODO CARTELLA
 + 'All’interno della cartella troverete una serie di immagini di mosche. Di ogni immagine esiste un’altra copia all’interno della cartella, con l’eccezione di due. Combinate i codici delle due immagini (seguendo l’ordine alfabetico) e otterrete il paragrafo per continuare la vostra ricerca.';
 
-paragraphs['E9P8'] = 'MOSCHE INNAMORATE'; // TODO paragrafo melanconico e stupido
+// Mosche sole
+paragraphs['E9P8'] = quote('- Devi andartene da questa città, sei in pericolo. Vuoi fuggire con me?<br>- No.<br>- Ti porterò a Corinto.<br>- Che ci farei io a Corinto?') + 'Ogni mosca, anche nella sofferenza e nella malattia, ha sempre un’altra mosca su cui fare affidamento. Così, il peso del dolore viene caricato su due spalle anziché su una. Ma due mosche son rimaste da sole. Chissà se nella vicendevole solitudine potranno trovare consolazione.-p-Procedete al Paragrafo <code>HD44</code>.';
 
 
 var caroselloDellaMorte = ''
@@ -389,12 +397,13 @@ paragraphs['HD44'] = prdBadge() + smmBadge() + '-p-'
 + 'Associate ad ogni raffigurazione la corrispondente malattia tra le seguenti: <b>Febbre gialla</b>, <b>Tubercolosi</b>, <b>Emorragia</b>, <b>Bipolarismo</b>, <b>Gotta</b>, <b>Colera</b>, <b>Peste bubbonica</b>, <b>Sifilide</b>, <b>Lebbra</b>, <b>Depressione</b>.<br>Se aveste dei dubbi, potete tranquillamente consultare il Manuale delle Malattie all’interno del materiale del Drammaturgo.<br>Una volta che avete associato ad ogni quadro una malattia, inviate al bot del produttore il codice risultante dall’iniziale della malattia.-p-'
 + '<i>Esempio:</i> se i quadri fossero disposti esattamente come la lista delle malattie, il codice risultante sarebbe <b>FTEBGCPSLD</b>.';
 
-paragraphs['2414'] = 'Prima metà oggetto finale: <code>BV**</code>.';
-// TODO
+// Dal tempio
+paragraphs['2414'] = quote('Non lasciarmi sola, difendimi dalle mosche, da mio fratello, da ma stessa. Mi pento, Giove, mi pento.')
++ 'Avete superato la terribile piaga delle Erinni. Purtroppo non tutti hanno avuto questa fortuna. Il codice per accedere alla Stanza Finale di questo Mondo, dove troverete l’Oggetto Speciale, è composto da 4 caratteri. I primi due sono <code>BV**</code>. Tornate indietro a risolvere altre prove per scoprire gli altri due caratteri.';
 
-paragraphs['C99K'] = 'Seconda metà oggetto finale: <code>**8V</code>.';
-// TODO
-
+// Dalle malattie
+paragraphs['C99K'] = quote('- Non so dirvi chi siano più brutti e cattivi a nuocervi, se queste belle bambine o i vostri cari sudditi.<br>- Bene. Apri le porte.')
++ 'Complimenti, grazie al vostro carisma e alla vostra attenzione verso il prossimo, vi siete guadagnati il favore del popolo. Tutte quelle persone fuori dal palazzo non vorranno fare altro che acclamarvi… no? Il codice per accedere alla Stanza Finale di questo Mondo, dove troverete l’Oggetto Speciale, è composto da 4 caratteri. Gli ultimi due sono <code>**8V</code>. Tornate indietro a risolvere altre prove per scoprire i primi due caratteri.';
 
 paragraphs['BV8V'] = quote('Addio, miei uomini, tentate di vivere. Tutto è nuovo qui, tutto è da ricominciare. Un giorno, nella città di Sciro infestata dai topi giunse un suonatore di flauto che si mise a suonare, e i topi andarono ad affollarsi intorno a lui. Disse agli uomini di Sciro: “scostatevi!”. E i topi drizzarono la testa. E il suonatore di Flauto scomparve con i topi per sempre.')
 + 'Anche grazie al vostro coraggio e alla vostra capacità di resistere alle prove più dure (<i>Ehi, ti è arrivato un messaggio… Ciao!</i>), Argo è stata salvata dall’epidemia che imperversava. Ora non vi resta che andarvene da questo Mondo e portarvi dietro tutti i mali che hanno afflitto la città per molti anni.-p-Raccogliete in questo Paragrafo la <b>mela Del Pedagogo</b>, l’Oggetto Speciale del Mondo de <i>Le Mosche</i>.';
@@ -649,11 +658,15 @@ paragraphs['PUFF'] = getFinalObjectParagraph('cuscino di Cocca', "Hai saputo di 
 //////////////////////
 
 
-paragraphs["DUSI"] = "<marquee direction='right'><a alt='' class='btn btn-danger' href='https://i.kym-cdn.com/entries/icons/original/000/000/260/youjustlost.jpg' style='width: 300px; font-size: 30px;'>NON CLICCARMI</a></marquee>";
+paragraphs["DUSI"] = adminBadge() + '-p-'
++ "<marquee direction='right'><a alt='' class='btn btn-danger' href='https://i.kym-cdn.com/entries/icons/original/000/000/260/youjustlost.jpg' style='width: 300px; font-size: 30px;'>NON CLICCARMI</a></marquee>";
 
-paragraphs['METT'] = smmBadge('Hey! Ma io ti conosco!') + '-p-<b>Todo</b>: Ricordarsi di scrivere il paragrafo per Matteo.';
+paragraphs['METT'] = adminBadge() + smmBadge('Hey! Ma io ti conosco!') + '-p-'
++ quote('Non ce n\'è, per nessuno ormai,<br>Di tutta Brescia è il più esaltante degli eroi.<br>Matteo sa come si fa ad affascinare tutta quanta la città.<br>Ieri era zero<br>(Zero, zero.)<br>Oggi è un regista<br>(E il più fiero)<br>E chi l\'avrebbe pensato mai, oggi è il più grande che sia esistito mai.')
++ 'CAVOLO RAGAZZI, no cioè troppo carini che siete venuti a trovarmi! Sono veramente in un brodo di giuggiole. Cosa posso fare per voi? Non saprei proprio, suggerirvi le battute o i codici per vincere delle prove è fuori discussione, va contro la mia etica attoriale. Però magari una cosina potrei farla. Dato che sono io a gestire l’account Instagram <code>@game_of_dice</code>... facciamo così: mandatemi un vostro selfie sull’account Instagram e disegnateci un cuore con scritto <i>“Mett”</i> al suo interno. Vi regalerò <b>50</b> punti.-p-<i>SSSH</i> mi raccomando, non dite niente a Dusi. Questo doveva essere un capitolo inutile!';
 
-paragraphs["PENE"] = "Vergognati.";
+paragraphs["PENE"] = "Vergognatevi.";
+paragraphs["FIGA"] = "Vergognatevi.";
 
 paragraphs["1234"] = "Banale, non trovi anche tu?\nUn codice così semplice, così comune, non ti rende onore. Perché mai avresti dovuto digitarlo? Perché cedere alla tentazione?-p-Eppure, qualcosa di utile lo si trova lo stesso. Prova, così per dire, a digitare il codice <code>9241</code>.";
 
@@ -665,7 +678,11 @@ paragraphs["9324"] = "Ora digita il codice <code>9432</code>.";
 paragraphs["9432"] = "Ora digita il codice <code>9142</code>.";
 paragraphs["9142"] = "Scusa, eh, ma fai tutto quello che ti viene detto?";
 
+paragraphs['0042'] = '42 è la risposta ad ogni domanda. Non lo sapevate? Provate a raccoglierla. Qualche punticino lo farete.';
 
+paragraphs['LSCM'] = smmBadge() + '-p-Grazie! finalmente qualcuno si ricorda di noi.<br>Solo perché Matteo e Ale non sono più i registi, dobbiamo trovarci lasciati fuori da questa caccia al tesoro? Siamo anche noi delle grandi produzioni, abbiamo solo avuto la sfortuna di non essere messe in scena per via del Coronavirus… ma almeno qui avremo il nostro spazio!-p-Come dite? Se possiamo farvi avere qualche punto?-p-Ahm, in realtà non abbiamo ricevuto alcuna indicazione in merito. Matteo dice che non eravamo ancora maturi a sufficienza per poter permettere ai giocatori di guadagnare dei punti. Fossi in voi, manderei un selfie con il dito medio all’account Instagram <code>@game_of_dice</code>. Penso possiate perdere <b>5</b> punti se lo farete, ma… noi vi ricorderemo per sempre per il vostro gesto.';
+
+paragraphs['LSCF'] = smmBadge() + '-p-Grazie! finalmente qualcuno si ricorda di noi.<br>Solo perché Matteo e Ale non sono più i registi, dobbiamo trovarci lasciati fuori da questa caccia al tesoro? Siamo anche noi delle grandi produzioni, abbiamo solo avuto la sfortuna di non essere messe in scena per via del Coronavirus… ma almeno qui avremo il nostro spazio!-p-Come dite? Se possiamo farvi avere qualche punto?-p-Ahm, in realtà non abbiamo ricevuto alcuna indicazione in merito. Matteo dice che non eravamo ancora maturi a sufficienza per poter permettere ai giocatori di guadagnare dei punti. Fossi in voi, manderei un selfie con il dito medio all’account Instagram <code>@game_of_dice</code>. Penso possiate perdere <b>5</b> punti se lo farete, ma… noi vi ricorderemo per sempre per il vostro gesto.';
 
 paragraphs['DADI'] = '';
 
@@ -673,6 +690,8 @@ paragraphs['DADO'] = '';
 
 paragraphs['GAME'] = '';
 paragraphs['DICE'] = '';
+
+paragraphs['META'] = quote('Ehy, ma questo è metagame!') + img("Meta.png");
 
 
 // Funzioni di utilità

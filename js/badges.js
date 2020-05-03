@@ -44,3 +44,7 @@ function scnBadge(objName='') {
 function prdBadge() {
     return getBadge("Produttore", "primary");
 }
+
+function adminBadge() {
+    return getBadge("Amministratore", "danger");
+}
