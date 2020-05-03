@@ -390,8 +390,10 @@ paragraphs['HD44'] = prdBadge() + smmBadge() + '-p-'
 + '<i>Esempio:</i> se i quadri fossero disposti esattamente come la lista delle malattie, il codice risultante sarebbe <b>FTEBGCPSLD</b>.';
 
 paragraphs['2414'] = 'Prima metà oggetto finale: <code>BV**</code>.';
+// TODO
 
 paragraphs['C99K'] = 'Seconda metà oggetto finale: <code>**8V</code>.';
+// TODO
 
 
 paragraphs['BV8V'] = quote('Addio, miei uomini, tentate di vivere. Tutto è nuovo qui, tutto è da ricominciare. Un giorno, nella città di Sciro infestata dai topi giunse un suonatore di flauto che si mise a suonare, e i topi andarono ad affollarsi intorno a lui. Disse agli uomini di Sciro: “scostatevi!”. E i topi drizzarono la testa. E il suonatore di Flauto scomparve con i topi per sempre.')
@@ -498,7 +500,7 @@ paragraphs['REI2'] = quote('- Senza debolezze?<br>- Sì, signore.')
 paragraphs['LZ55'] = quote('- Sembra che stia sorridendo, non è vero?<br>- Sì, signore.')
 + '-p-Il terzo carattere del codice del Paragrafo finale di questo Mondo è: <code>**N*</code>.';
 
-paragraphs['M6C4'] = quote('- Non la vinceremo mai.<br>- No, signore.')
+paragraphs['CAMG'] = quote('- Non la vinceremo mai.<br>- No, signore.')
 + '-p-Il quarto carattere del codice del Paragrafo finale di questo Mondo è: <code>***9</code>.';
 
 paragraphs['T4N9'] = quote('Bisognerà avere del coraggio, ne avrò tanto io.')
@@ -507,7 +509,7 @@ paragraphs['T4N9'] = quote('Bisognerà avere del coraggio, ne avrò tanto io.')
 paragraphs['RAIN'] = getFinalObjectParagraph('allodola', "Giovanna");
 
 
-paragraphs['W00D'] = scnBadge() + '-p-' + ''; // TODO
+paragraphs['W00D'] = scnBadge() + '-p-' + 'Un ottimo tronco, di ottima fattura.<br>Dove l\'avete recuperato?'; // TODO
 
 paragraphs['MISO'] = scnBadge() + '-p-' + 'Fantastico! Avete trovato nuove persone che possono darci una mano!-p-Non è meraviglioso quando ci si aiuta a vicenda?';
 
