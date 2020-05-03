@@ -65,9 +65,9 @@ paragraphs['1111'] = 'Ecco, qui le n-nostre strade si separano.<br>Come dite?<br
 + 'Per sempre vostro,-p-'
 + 'il <i>Tutorial</i>.';
 
-paragraphs['CATA'] = 'Seriamente avete provato a raccogliere un catamarano...?';
+paragraphs['CATA'] = scnBadge() + '-p-Seriamente avete provato a raccogliere un catamarano...?';
 
-paragraphs['RAMO'] = 'Ok, bene.-p-E ora cosa pensate di farne?-p-'
+paragraphs['RAMO'] = scnBadge() + '-p-Ok, bene.-p-E ora cosa pensate di farne?-p-'
 + 'Non fraintendetemi, per carità, non è da tutti raccogliere un rametto da terra.<br>'
 + 'Ma addirittura pretendere che questo vi conduca ad un Paragrafo interessante?-p-'
 + 'Per piacere.';
@@ -75,13 +75,13 @@ paragraphs['RAMO'] = 'Ok, bene.-p-E ora cosa pensate di farne?-p-'
 paragraphs['TEST'] = quote('Ceci n\'est pas un paragraphe.');
 
 // Si sblocca con la prova base del bot
-paragraphs['ABCD'] = 'Hey tu!<br>Sì sì, dico proprio a te!<br>Dove pensi di andare?-p-'
+paragraphs['ABCD'] = scnBadge() + '-p-Hey tu!<br>Sì sì, dico proprio a te!<br>Dove pensi di andare?-p-'
 + 'Questa è zona privata, non si può passare.-p-'
 + 'Io capisco che sia divertente andare in giro a zonzo, ma mi pare che tu e la tua combriccola abbiate un <i>Tutorial</i> da portare avanti, o sbaglio?-p-'
 + 'Su su, niente storie. Tornate in carreggiata e finite ciò che avete iniziato.<br>Avrete tutto il tempo per divertirvi ad esplorare, non temete.';
 
 // Sbloccato con l'apostrofo
-paragraphs['LOOL'] = 'Mi prostro davanti a cotanta arguzia.-p-Voi non avete ide di quanto io sia felice per il fatto che delle persone stanno effettivamente leggendo queste parole. State dando un senso alla mia vita di <i>Tutorial</i>.<br>Grazie.-p-'
+paragraphs['LOOL'] = scnBadge() + '-p-Mi prostro davanti a cotanta arguzia.-p-Voi non avete idea di quanto io sia felice per il fatto che delle persone stanno effettivamente leggendo queste parole. State dando un senso alla mia vita di <i>Tutorial</i>.<br>Grazie.-p-'
 + 'E poi, ecco, ho fatto una cosina per ringraziarvi.<br>Nulla di che, davvero, ma mi sembrava giusto riconoscere lo sforzo.-p-'
 + 'Andate al paragrafo <code>YEAH</code>.';
 
@@ -92,11 +92,11 @@ function spam() {
     }
 }
 
-paragraphs['EDGY'] = 'Ah, è così, quindi? Pensate che tutto questo sia divertente? Pensate che tutto questo sia solamente un gioco?-p-Beh, peggio per voi.-p-E tanti <a href="#" onclick="spam()">auguri</a>.';
+paragraphs['EDGY'] = scnBadge() + '-p-Ah, è così, quindi? Pensate che tutto questo sia divertente? Pensate che tutto questo sia solamente un gioco?-p-Beh, peggio per voi.-p-E tanti <a href="#" onclick="spam()">auguri</a>.';
 
 paragraphs['YEAH'] = 'Meraviglia delle meraviglie!<br>Che cosa vedono i miei occhi da <i>Tutorial</i>?<br>Non è forse quella una <b>ruota panoramica scardinata che rotola verso il mare<b>? &#128165';
 
-paragraphs['STOP'] = 'Beh, abbiamo riso e scherzato, ma il gioco è bello quando dura poco.-p-Mi pare che abbiate ottenuto quello che volevate, giusto?-p-Ordunque, senza ulteriori indugi, vi esorterei a continuare la vostra avventura, senza soffermarvi per più del tempo strettamente necessario su questo povero et tristo paragrafo denominato - per un crudele scherzo della sorte - come il tanto ignorato cartello ottagonale che adorna i lati delle lunghe strisce d\'asfalto che voi umani siete soliti chiamare strade.';
+paragraphs['STOP'] = scnBadge() + 'Beh, abbiamo riso e scherzato, ma il gioco è bello quando dura poco.-p-Mi pare che abbiate ottenuto quello che volevate, giusto?-p-Ordunque, senza ulteriori indugi, vi esorterei a continuare la vostra avventura, senza soffermarvi per più del tempo strettamente necessario su questo povero et tristo paragrafo denominato - per un crudele scherzo della sorte - come il tanto ignorato cartello ottagonale che adorna i lati delle lunghe strisce d\'asfalto che voi umani siete soliti chiamare strade.';
 
 
 ////////////////
@@ -209,32 +209,32 @@ paragraphs['SBEM'] = quote('- Non è di qua, ma è di là!<br>- Non è di qua, m
 
 paragraphs['FIRE'] = getFinalObjectParagraph('fuoco', "La Cantatrice Calva");
 
-paragraphs['DLIN'] = quote('Guarda un po\', hanno suonato. Ci dev\'essere qualcuno.')
+paragraphs['DLIN'] = scnBadge() + '-p-' + quote('Guarda un po\', hanno suonato. Ci dev\'essere qualcuno.')
 + '<a class="btn btn-secondary" href="https://www.youtube.com/watch?v=CCRCG-d6hXY">DLIN</a>';
-paragraphs['DLON'] = quote('Quando suonano alla porta, è segno che c\'è qualcuno.')
+paragraphs['DLON'] = scnBadge() + '-p-' + quote('Quando suonano alla porta, è segno che c\'è qualcuno.')
 + '<a class="btn btn-secondary" href="https://www.youtube.com/watch?v=RHJvJPNRJkE">DLON</a>';
 
-paragraphs['TUBE'] = 'Ottima idea, quella di cercare sotto terra.<br>In effetti si sa che le leggende spuntano proprio come i funghi, pertanto è cosa saggia controllare il terreno circostante, sperando di estirparle sul nascere.-p-'
+paragraphs['TUBE'] = scnBadge() + '-p-' + 'Ottima idea, quella di cercare sotto terra.<br>In effetti si sa che le leggende spuntano proprio come i funghi, pertanto è cosa saggia controllare il terreno circostante, sperando di estirparle sul nascere.-p-'
 + 'Beh, che dire.-p-'
 + 'Sembra che qui non ce ne siano.<br>Meglio così, no?';
 
-paragraphs['KITE'] = 'Ma scusate, non si era appena detto che sono vietati gli aquiloni?-p-'
+paragraphs['KITE'] = scnBadge() + '-p-' + 'Ma scusate, non si era appena detto che sono vietati gli aquiloni?-p-'
 + 'Oh! A meno che non sia una <i>fake news</i>...'
 + 'Mmmh forse no, sembra abbastanza convincente.';
 
-paragraphs['DEFX'] = 'State dicendo che portare con voi l\'armatura permetterà a qualche parlamentare inglese di muoversi più liberamente, magari evitandogli anche qualche pesante sanzione?-p-'
+paragraphs['DEFX'] = scnBadge() + '-p-' + 'State dicendo che portare con voi l\'armatura permetterà a qualche parlamentare inglese di muoversi più liberamente, magari evitandogli anche qualche pesante sanzione?-p-'
 + 'Beh sì, ha perfettamente senso.';
 
-paragraphs['PETZ'] = quote('- Quali bestie?<br>- Beh, ad esempio... il topo!<br>- Il criceto.<br>- La scimmia.<br>- Io una volta ho visto un ragno!')
+paragraphs['PETZ'] = scnBadge() + '-p-' + quote('- Quali bestie?<br>- Beh, ad esempio... il topo!<br>- Il criceto.<br>- La scimmia.<br>- Io una volta ho visto un ragno!')
 + 'Ma che cos\'è tutto questa confusione? E perché ci sono animali che scorrazzano dappertutto?-p-Forse sarà meglio che ci pensiate voi, recuperando queste povere bestiole dai vari Paragrafi.-p-Come dite? Avete altro da fare?<br>Beh, aspettate almeno di sapere a quanto ammonta la ricompensa.';
 
-paragraphs['BUGZ'] = quote('Sapete cari amici, alcuni libri che ho trovato in biblioteca, sostengono che una vita senza avvenire non è mai altro che una vita senza avvenire.')
+paragraphs['BUGZ'] = scnBadge() + '-p-' + quote('Sapete cari amici, alcuni libri che ho trovato in biblioteca, sostengono che una vita senza avvenire non è mai altro che una vita senza avvenire.')
 + '<i>Bzzzzzz fri fri fri scscscscscsc frrrrrrrr flpflpflp zzzzzzzzz chomp.</i>-p-'
 + 'Ma che ci fanno qui tutti questi insetti? Vi pare il caso di portarli in questo Paragrafo?<br>Sciò sciò, andatevene prima che facciano il nido fra questi caratteri.';
 
-paragraphs['WAVE'] = 'Mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmicroonde.';
+paragraphs['WAVE'] = scnBadge() + '-p-' +  'Mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmicroonde.';
 
-paragraphs['SETE'] = quote('- E quelli che non hanno sete?<br>- Quelli che non hanno sete sono poveri.<br>- Oh.');
+paragraphs['SETE'] = scnBadge() + '-p-' + quote('- E quelli che non hanno sete?<br>- Quelli che non hanno sete sono poveri.<br>- Oh.');
 
 //////////////
 // I FISICI //
@@ -296,13 +296,11 @@ paragraphs['5395'] = prdBadge() + '-p-' + quote('- Pazzi, eppure saggi.<br>- Pri
 + 'Entrate in una stanza completamente bianca. Improvvisamente, la porta si chiude dietro di voi. Le luci si spengono, e vi ritrovate al buio. Una dopo l’altra, cominciano a comparire, proiettate sulla parete bianca, una serie di immagini. Sono macchie. Che cosa vedete nelle macchie?-p-'
 + 'Per vincere questa sfida, dovrete accedere ad un file multimediale contenuto nel materiale del Drammaturgo. Questo file si chiama “Macchie”. Si tratta di una presentazione che può essere condivisa con ciascuno dei quattro membri, e contiene quattro slide. All’interno di ciascuna di queste slide troverete una serie di sette macchie di Rorschach. Lo scopo è cercare di sovrapporre tre macchie in maniera corretta affinché compaiano dei soggetti precisi. Essendoci quattro slide, ogni membro del gruppo può provare a fare la composizione di una slide (ovviamente, se qualcun* finisse prima, può aiutare chi si trova in difficoltà).<br>Quando avrete trovato i quattro soggetti, comunicateli al Produttore.';
 
-paragraphs['9BS8'] = quote('')
-+ '';
-// TODO
+paragraphs['9BS8'] = quote('La dottoressa von Zahnd ha già sbrigato tutte le pratiche necessarie. La considera pazzo, ma innocuo e privo di tare ereditarie. Ha detto di essere probabilmente più pazza di lei, e si è messa a ridere.')
++ 'I primi due caratteri del codice del Paragrafo finale di questo Mondo sono: <code>3V**</code>.';
 
 paragraphs['82U1'] = quote('- E il sistema di tutte le invenzioni possibili?<br>- Anche quello esiste.')
-+ '';
-// TODO
++ 'Gli ultimi due caratteri del codice del Paragrafo finale di questo Mondo sono: <code>**1W</code>.';
 
 paragraphs['3V1W'] = quote('Volete che gli assassini che abbiamo compiuto non abbiano alcun senso? O quel che abbiamo commesso era un sacrificio, oppure era un assassinio. O noi restiamo in questo manicomio, oppure il mondo intero diverrà un manicomio. O noi ci cancelliamo dalla memoria degli uomini, oppure tutta l\'umanità verrà cancellata dalla faccia della terra.')
 + 'Forse sarà meglio allontanarsi da questa villa. Accade spesso, quando si rimane per un lungo periodo dentro un manicomio, che non si sappia più chi è matto e chi non lo è… e noi non lo vogliamo, giusto?-p-'
@@ -310,24 +308,24 @@ paragraphs['3V1W'] = quote('Volete che gli assassini che abbiamo compiuto non ab
 
 paragraphs['IDEA'] = getFinalObjectParagraph('sistema di tutte le invenzioni possibili', "I Fisici");
 
-paragraphs['CRZY'] = 'hihihi sn paxerello e skrv 1 prgrph tto ksì hihi trpp divertnete nn trovte-p-km dit??<br>mainkomio????-p-no no avte sbglito psto srry m sa ke ce stto 1 sbglio xD-p-xò mgr ptete fr 1 ks x me.......-p-qnd sntite 1 fskio biiip mlt frte bttete i diti sl tvolo a rtmo x bllare hihihihi km se siete 1 telegrafista kpt????';
+paragraphs['CRZY'] = scnBadge() + '-p-' + 'hihihi sn paxerello e skrv 1 prgrph tto ksì hihi trpp divertnete nn trovte-p-km dit??<br>mainkomio????-p-no no avte sbglito psto srry m sa ke ce stto 1 sbglio xD-p-xò mgr ptete fr 1 ks x me.......-p-qnd sntite 1 fskio biiip mlt frte bttete i diti sl tvolo a rtmo x bllare hihihihi km se siete 1 telegrafista kpt????';
 
-paragraphs['HUES'] = quote('Ce la siamo battuta nell\'universo verso i deserti della luna.<br>Affondammo nella sua polvere.<br>E già qui in silenzio alcuni ci lasciarono la pelle.')
+paragraphs['HUES'] = scnBadge() + '-p-' + quote('Ce la siamo battuta nell\'universo verso i deserti della luna.<br>Affondammo nella sua polvere.<br>E già qui in silenzio alcuni ci lasciarono la pelle.')
 + 'Dal punto di vista delle proprietà fisiche, la luce visibile appare complessivamente bianca se la si considera la somma di tutte le frequenze dello spettro ottico. A ciascuna frequenza del visibile è associato un determinato colore. In particolare la diversità di colore o semplicemente il colore dei corpi che non emettono o brillano di luce propria, percepito poi dall\'occhio umano, deriva dal fatto che un certo corpo assorbe tutte le frequenze o lunghezze d\'onda dello spettro visibile, ma riemette o riflette una o più componenti o frequenze della luce bianca che, eventualmente mescolate tra loro, danno vita al colore percepito dall\'occhio umano. In particolare nei due casi estremi un corpo appare bianco quando assorbe tutte le frequenze riflettendole a sua volta tutte, viceversa un corpo appare nero quando assorbe tutte le frequenze e non ne riflette alcuna; in tutti gli altri casi intermedi si avrà la percezione tipica di un altro colore.-p-Ogni sorgente di luce emette fotoni di diverse lunghezze d\'onda, per cui quello che appare come tinta unica è solo la lunghezza d\'onda dominante o risultante e non quella in cui sono assenti altre.-p-Nel caso di corpi che emettono o brillano di luce propria, come è noto tutti i corpi al di sopra dello zero assoluto, emettono invece radiazione elettromagnetica con potenza che è proporzionale alla loro temperatura assoluta T secondo la legge di <i>Stefan-Boltzmann</i> e distribuita con buona approssimazione secondo lo spettro del corpo nero di <i>Planck</i> con il picco di emissione che si sposta secondo la Legge di Wien in funzione della temperatura T: se il corpo è sufficientemente caldo parte di questa radiazione elettromagnetica cade nella banda del visibile risultando così visibile ai nostri occhi passando dal rosso, al giallo, al bianco, azzurro e blu quanto più il corpo è caldo.';
 
-paragraphs['4224'] = quote('- È già buio.<br>- Fa notte presto, ormai.<br>- Aspetta che accendo la luce.<br>- Non ancora. Vieni qui da me.')
+paragraphs['4224'] = scnBadge() + '-p-' + quote('- È già buio.<br>- Fa notte presto, ormai.<br>- Aspetta che accendo la luce.<br>- Non ancora. Vieni qui da me.')
 + 'Il battito di un cuore umano non è sempre regolare.-p-Può accelerare e decelerare, a seconda delle sensazioni e dei messaggi che vogliamo trasmettere agli altri.';
 
-paragraphs['992J'] = quote('Vero che la secca di non potermi arrestare?')
+paragraphs['992J'] = scnBadge() + '-p-' + quote('Vero che la secca di non potermi arrestare?')
 + 'La figura pare accorgersi del vostro interesse per la sua mela... E non sembra ne sia molto felice.-p-Forse è il caso di parlarci direttamente, in modo da chiarire le vostre intenzioni. <br>Certo, magari distrarlo dal gioco potrà essere difficile, ma non è detto che non possiate cominciare a giocare anche voi.';
 
-paragraphs['J299'] = quote('Allora, torno a dormire.')
+paragraphs['J299'] = scnBadge() + '-p-' + quote('Allora, torno a dormire.')
 + 'La figura non pare accorgersi del vostro interesse per il suo violino... Anzi, ha un\'aria stranamente felice.-p-Forse è il momento buono per parlarci direttamente, in fondo non sembra affatto avere cattive intenzioni. <br>Certo, magari distrarlo dal gioco potrà essere difficile, ma non è detto che non possiate cominciare a giocare anche voi.';
 
-paragraphs['INNK'] = quote('- Può darsi che sia l\'uomo più prezioso del mondo, ma i suoi manoscritti sono più preziosi di lui.<br>- I miei manoscritti? Ma se li ho bruciati!')
+paragraphs['INNK'] = scnBadge() + '-p-' + quote('- Può darsi che sia l\'uomo più prezioso del mondo, ma i suoi manoscritti sono più preziosi di lui.<br>- I miei manoscritti? Ma se li ho bruciati!')
 + '<i>Verba volant, scripta manent.</i>';
 
-paragraphs['BIIP'] = quote('Su invito delle autorità si è reso necessario prendere alcune misure di sicurezza.<br>Lor signori desiderano ancora qualcosa per la notte?')
+paragraphs['BIIP'] = scnBadge() + '-p-' + quote('Su invito delle autorità si è reso necessario prendere alcune misure di sicurezza.<br>Lor signori desiderano ancora qualcosa per la notte?')
 + '...';
 
 ////////////////////
@@ -396,10 +394,28 @@ paragraphs['2414'] = 'Prima metà oggetto finale: <code>BV**</code>.';
 paragraphs['C99K'] = 'Seconda metà oggetto finale: <code>**8V</code>.';
 
 
-paragraphs['BV8V'] = quote('Addio, miei uomini, tentate di vivere. Tutto è nuovo qui, tutto è da ricominciare. Un giorno, nella città di Sciro infestata dai topi giunse un suonatore di flauto che si mise a suonare, e itopi andarono ad affollarsi intorno a lui. Disse agli uomini di Sciro: “scostatevi!”. E i topi drizzarono la testa. E il suonatore di Flauto scomparve con i topi per sempre.')
+paragraphs['BV8V'] = quote('Addio, miei uomini, tentate di vivere. Tutto è nuovo qui, tutto è da ricominciare. Un giorno, nella città di Sciro infestata dai topi giunse un suonatore di flauto che si mise a suonare, e i topi andarono ad affollarsi intorno a lui. Disse agli uomini di Sciro: “scostatevi!”. E i topi drizzarono la testa. E il suonatore di Flauto scomparve con i topi per sempre.')
 + 'Anche grazie al vostro coraggio e alla vostra capacità di resistere alle prove più dure (<i>Ehi, ti è arrivato un messaggio… Ciao!</i>), Argo è stata salvata dall’epidemia che imperversava. Ora non vi resta che andarvene da questo Mondo e portarvi dietro tutti i mali che hanno afflitto la città per molti anni.-p-Raccogliete in questo Paragrafo la <b>mela Del Pedagogo</b>, l’Oggetto Speciale del Mondo de <i>Le Mosche</i>.';
 
 paragraphs['MELA'] = getFinalObjectParagraph('mela del Pedagogo', "Le Mosche");
+
+paragraphs['NUTS'] = scnBadge() + '-p-' + quote('Vieni! Vieni! Ti riceveranno le nostre braccia, i nostri baci lacereranno la tua carne fragile.')
++ 'Sono le voci ad ingannarvi, o quel numero si ripete esattamente <b>tre</b> volte?';
+
+paragraphs['HALL'] = scnBadge() + '-p-' + quote('Salite dalle viscere del mondo, o morti cento volte, venite a saziare il vostro odio sui viventi.')
++ 'Perché ostinarsi a festeggiare qualcosa che non è nella nostra tradizione.<br>Perché?-p-Per un misero indizio? Per un minuscolo pezzo di quel gigantesco puzzle in cui costantemente siamo immersi?-p-Peccato, dico davvero.-p-Se non altro, il numero del Diavolo potrebbe pure comparire nel prossimo Paragrafo.';
+
+paragraphs['CULO'] = scnBadge() + '-p-' + quote('Io puzzo! Io puzzo! Sono una carogna immonda!')
++ 'Hey! What did you expect?';
+
+paragraphs['LEAF'] = scnBadge() + '-p-' + '<i>*chomp chomp munch munch*</i>-p-Mmmmh che buona questa fogliolina!';
+
+paragraphs['FAIL'] = scnBadge() + '-p-' + 'Eccovi qui.<br>Di nuovo.-p-Ma come, non mi riconoscete?-p-Sono sempre io, il vostro <i>Tutorial</i>, evocato dal fatto che abbiate fatto una grandissima ca***ta.<br>Avete voluto volare troppo in alto, andare a toccare la superficie del sole, mangiare il frutto proibito, ed - esattamente come avevo predetto - vi è andata male.<br> Molto male, oserei dire.-p-Capito la morale di questo Paragrafo?-p-<b>Non dovete provare a barare.</b>-p-'
++ 'Ora. Per stavolta passi, non mi va di impuntarmi troppo, anche perché è la prima volta e tutti siamo stati in quell\'età in cui si fanno cose un po\' pazzerelle.<br>Ma che non si ripeta più, ok?-p-Io non voglio più vedervi in questo Paragrafo per il resto della partita, chiaro?-p-E ora su, andatevene, che avete un gioco da vincere.<br>-p-'
++ '<a href="#" class="btn btn-danger">Perdoname <i>Tutorial</i> por mi vida loca</a>';
+
+paragraphs['HEAL'] = scnBadge() + '-p-' + quote('Ora invece... Ho lasciato scivolare il mio odio. Ho voluto credere di poter guarire la gente di qui con le parole. Ed è colpa tua.')
++ '&Egrave; una mia impressione o state davvero già meglio?';
 
 ////////////////
 // GIOVANNA //
@@ -490,6 +506,25 @@ paragraphs['T4N9'] = quote('Bisognerà avere del coraggio, ne avrò tanto io.')
 
 paragraphs['RAIN'] = getFinalObjectParagraph('allodola', "Giovanna");
 
+
+paragraphs['W00D'] = scnBadge() + '-p-' + ''; // TODO
+
+paragraphs['MISO'] = scnBadge() + '-p-' + 'Fantastico! Avete trovato nuove persone che possono darci una mano!-p-Non è meraviglioso quando ci si aiuta a vicenda?';
+
+// Kalimba
+paragraphs['S65D'] = scnBadge() + '-p-' + 'Mmh... Riflettete.-p-La kalimba si trovava nel cassone, al momento in cui è stato rovesciato. Ma se non è volata fuori, come fa ad aver prodotto un suono?-p-No no, probabilmente vi state confondendo. Non si tratta di una kalimba, ma di quell\'altro strumento... Coso lì, dai! Come si chiama quell\'altro strumento con la \"<b>k</b>\" nel nome?';
+
+// Cassone strumenti
+paragraphs['CASS'] = scnBadge() + '-p-' + 'Oh caspita! Appena recuperate il cassone degli strumenti, vi rendete conto che al suo interno ne sono rimasti ancora alcuni!-p-Beh, senza alcun dubbio, se non sono volati fuori durante il ribaltamento, sicuramente non hanno contribuito a fare quel rumore che si è sentito prima... Giusto?-p-Possiamo quindi escludere dalla lista, con ragionevole certezza, i seguenti strumenti musicali:'
++ '<ul>'
++ '<li>Un\'arpa.</li>'
++ '<li>Un clavicembalo.</li>'
++ '<li>Un flauto di Pan.</li>'
++ '<li>Un theremin.</li>'
++ '<li>Due nacchere.</li>'
++ '<li>Una carot-<i>EHY!</i> Chi ha lasciato una carota nel cassone degli strumenti?</li>'
++ '</ul>';
+
 //////////////////////////
 // UN GIORNO QUALUNQUE ///
 //////////////////////////
@@ -507,12 +542,18 @@ paragraphs['2385'] = smmBadge() + '-p-' + quote('Cesare? Se ne infischia. È sta
 + 'Trova le ciabatte nella seguente immagine. Le coordinate del quadrante contenente le ciabatte ti permetteranno di accedere al prossimo paragrafo.'
 + imgTransition('Ciabatte_noGrid.png', 'Ciabatte_withGrid.png');
 
-paragraphs['NIUW'] = '';
+paragraphs['NIUW'] = img('Ciabatte.jpg') + '-p-Andate al paragrafo <code>2385</code>.';
 
-paragraphs['FEET'] = scnBadge() + '';
-
-paragraphs['LEG0'] = quote('Now you’re just somebody that I used to know.');
-// TODO
+paragraphs['LEG0'] = quote('Now and then I think of when we were together<br>like when you said that you were so happy you could die<br>told myself that you were right for me<br>but I felt so lonely in your company')
++ 'Che succede? Tutto cambia, nulla cambia. Quelli che fino a poco fa non erano altro che cubi bianchi, possono improvvisamente diventare poltrone e divani. E tavoli, e pietre e molto altro ancora. Bisogna solo mettere ogni cosa al suo posto.-p-'
++ 'Per sbloccare il codice di questa prova dovrete accedere al materiale del Drammaturgo. In particolare, aprite la cartella “<i>Presentazioni Inutili</i>”. E, all’interno di questa cartella, aprite la “<b>23</b>”.<br>Al suo interno troverete una presentazione con 5 slide. La prima slide presenta una griglia contenente dei numeri. Le altre slide presentano, ognuna, un puzzle di 15 pezzi. In realtà, un pezzo di puzzle è stato eliminato, il vostro compito sarà il seguente:'
++ '<ol>'
++ '<li>ricostruire il puzzle</li>'
++ '<li>capire quale sia il pezzo mancante</li>'
++ '<li>confrontare con la griglia della prima pagina la posizione del pezzo mancante</li>'
++ '<li>comporre il codice del prossimo paragrafo mettendo in ordine i numeri corrispondenti ai quattro pezzi mancanti (seguendo l’ordine delle slide).</li>'
++ '</ol>-p-'
++ 'Consiglio: giacché si tratta di quattro puzzle all’interno di quattro slide diverse in una presentazione drive, in questo caso potrebbe essere utile inviare una copia di questa presentazione a ogni membro della squadra in modo che ognuno possa risolverne una slide (e se qualcuno finisce prima, possa aiutare un compagno. <i>Together is better!</i>';
 
 paragraphs['WAIT'] = quote('Fragola.')
 + 'La prima metà del codice del Paragrafo finale di questo Mondo è: <code>6G**</code>';
@@ -524,6 +565,17 @@ paragraphs['6GPT'] = quote('- Poverina. Non ti avvilire così. Guarda che faccia
 + 'Difficile decidere cosa fare. Agire. Non agire. Fa qualche differenza?-p-Beh, mentre ci pensate, raccogliete in questo Paragrafo una <b>coppa fragola e panna</b>, l’Oggetto Speciale del mondo di <i>Un Giorno Qualunque</i>.';
 
 paragraphs['YUMM'] = getFinalObjectParagraph('coppa fragola e panna', "Un Giorno Qualunque");
+
+paragraphs['TOMB'] = scnBadge() + '-p-' + quote('- Ma dove avevi la testa, quando sei scappata di casa?<br>- Voleva che mi facessi ammazzare?')
++ 'Perché cercare un paragrafo tanto triste? :(';
+
+paragraphs['H077'] = scnBadge() + '-p-' + quote('Abbiamo scambiato due parole. Così, per passare il tempo. Sennò il tempo non passa mai.')
++ 'Ah, signora mia, è proprio vero: il tempo non passa.<br>Il tempo non passa <i>mai</i>.-p-Eh, che ci volete fare, in fondo?<br>Avete accettato di giocare di vostra spontanea iniziativa, francamente non mi pare che qualche persona vi abbia obbligato.-p-Certo, lo capisco, può essere snervante. Specialmente quando si è in competizione con le altre squadre.<br>Ma per cosa, poi? Per un po\' di birra che sa di piscio e una pizza riscaldata?-p-Se volete la mia opinione, nel caso ve la steste domandando, io mollerei qui.<br>Voglio dire: che cosa avete concluso? Che cosa avete ottenuto finora?<br>Qualche <i>codice</i> e qualche <i>punto</i> faranno davvero la vostra felicità? O sarà solo l\'ennesimo vano tentativo di riempire le vostre vuote giornate di quarantena?';
+
+paragraphs['JAVA'] = scnBadge() + '-p-' + quote('Potrei avere qualcosa da mangiare? Ho fame. Mi sento svenire.')
++ 'Approfittatene. Sfruttate il tempo che vi è concesso. Non sprecatelo. Fatelo fruttare. Ridete. Anche se vi sta crollando il mondo addosso. Fatevi credere pazzi. Bevete un caffè con le persone a voi care. Amate. Gioite. Disperatevi. Piangete senza vergogna. Mangiate una pera ancora acerba. Fate volare un aquilone in una giornata di tempesta. Abbracciatevi. Coccolatevi. Guardate il TG di Mentana. Correte nudi sotto la pioggia. Emozionatevi. Stupitevi per un\'alba o un tramonto. Ficcatevi le batterie mini stilo nel buco del cazzo. Vivete.';
+
+paragraphs['FEET'] = scnBadge() + '-p-' + 'O-ok.-p-Perché siete qui?-p-Forse è meglio se non diciamo a nessuno del nostro incontro in questo Paragrafo, che ne dite?<br>Posso fidarmi di voi, almeno per i prossimi <b>sette minuti</b>?';
 
 ////////////////////////////
 // HAI SAPUTO DI Charley? //
@@ -595,9 +647,9 @@ paragraphs['PUFF'] = getFinalObjectParagraph('cuscino di Cocca', "Hai saputo di 
 //////////////////////
 
 
-
-
 paragraphs["DUSI"] = "<marquee direction='right'><a alt='' class='btn btn-danger' href='https://i.kym-cdn.com/entries/icons/original/000/000/260/youjustlost.jpg' style='width: 300px; font-size: 30px;'>NON CLICCARMI</a></marquee>";
+
+paragraphs['METT'] = smmBadge('Hey! Ma io ti conosco!') + '-p-<b>Todo</b>: Ricordarsi di scrivere il paragrafo per Matteo.';
 
 paragraphs["PENE"] = "Vergognati.";
 
@@ -610,6 +662,15 @@ paragraphs["9124"] = "Ora digita il codice <code>9324</code>.";
 paragraphs["9324"] = "Ora digita il codice <code>9432</code>.";
 paragraphs["9432"] = "Ora digita il codice <code>9142</code>.";
 paragraphs["9142"] = "Scusa, eh, ma fai tutto quello che ti viene detto?";
+
+
+
+paragraphs['DADI'] = '';
+
+paragraphs['DADO'] = '';
+
+paragraphs['GAME'] = '';
+paragraphs['DICE'] = '';
 
 
 // Funzioni di utilità
