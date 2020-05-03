@@ -347,14 +347,14 @@ paragraphs['BZZZ'] = quote('Non avete nulla da temere. Oggi è la festa dei Mort
 paragraphs['F3X9'] = quote('Sei bella Elettra, più di me. Ma i miei baci ti faranno invecchiare.')
 + audio('Erinni1.mp3');
 
-paragraphs['7737'] = quote('Mi rotolerò sul loro ventre e sul loro petto come un torrente sui ciottoli.')
+paragraphs['7377'] = quote('Mi rotolerò sul loro ventre e sul loro petto come un torrente sui ciottoli.')
 + audio('Erinni2.mp3');
 
 paragraphs['9832'] = quote('Prenderò sulle ginocchia la sua testa pallida, accarezzerò i suoi capelli.')
 + audio('Erinni3.mp3');
 
 // Rituale
-paragraphs['8616'] = smmBadge() + '-p-' + quote('Voi, i dimenticati, gli abbandonati, i disillusi, voi che vi trascinate a fior di terra nel buio, in piedi! È la vostra festa.') + 'Sembra che stia succedendo qualcosa di importante in questo momento. Se volete partecipare anche voi al <b>Rituale</b>, il Social Media Manager della vostra squadra può inviare un messaggio con scritto “Rituale” all’account Instagram <code>@game_of_dice</code>. In alternativa, se volete proseguire, procedete al capitolo <code>2414</code>.';
+paragraphs['8616'] = smmBadge() + '-p-' + quote('Voi, i dimenticati, gli abbandonati, i disillusi, voi che vi trascinate a fior di terra nel buio, in piedi! È la vostra festa.') + 'Sembra che stia succedendo qualcosa di importante in questo momento. Se volete partecipare anche voi al <b>Rituale</b>, il Social Media Manager della vostra squadra può inviare un messaggio con scritto <i>“Rituale”</i> all’account Instagram <code>@game_of_dice</code>. In alternativa, se volete proseguire, procedete al capitolo <code>2414</code>.';
 
 paragraphs['RYXM'] = smmBadge() + '-p-' + quote('Ah, che viaggio piacevole. E che bella fu la vostra ispirazione di venire qui, quando in Grecia ci sono più di cinquecento città con vini buoni, alberghi accoglienti e vie affollate. ‘Sta gente di montagna pare che non abbia mai visto un turista, dappertutto gli stessi gridi di spavento, lo stesso fuggi-fuggi. Puah.')
 + 'La piazza del mercato è decisamente sovraffollata, ma di mosche, non di uomini. Non si riesce praticamente a vedere alcunché. Difficile riuscire a trovare tesori rari all’interno di questo sciame di mosche. Tuttavia, se aveste la pazienza di soffermarvi per un momento con più attenzione, notereste una cosa importante: che tutte queste mosche sono accoppiate tra loro, tranne due, diverse da tutte le altre. Sapreste individuare quali sono?-p-'
@@ -423,7 +423,7 @@ paragraphs['LEAF'] = scnBadge() + '-p-' + '<i>*chomp chomp munch munch*</i>-p-Mm
 
 paragraphs['FAIL'] = scnBadge() + '-p-' + 'Eccovi qui.<br>Di nuovo.-p-Ma come, non mi riconoscete?-p-Sono sempre io, il vostro <i>Tutorial</i>, evocato dal fatto che abbiate fatto una grandissima ca***ta.<br>Avete voluto volare troppo in alto, andare a toccare la superficie del sole, mangiare il frutto proibito, ed - esattamente come avevo predetto - vi è andata male.<br> Molto male, oserei dire.-p-Capito la morale di questo Paragrafo?-p-<b>Non dovete provare a barare.</b>-p-'
 + 'Ora. Per stavolta passi, non mi va di impuntarmi troppo, anche perché è la prima volta e tutti siamo stati in quell\'età in cui si fanno cose un po\' pazzerelle.<br>Ma che non si ripeta più, ok?-p-Io non voglio più vedervi in questo Paragrafo per il resto della partita, chiaro?-p-E ora su, andatevene, che avete un gioco da vincere.<br>-p-'
-+ '<a href="#" class="btn btn-danger">Perdoname <i>Tutorial</i> por mi vida loca</a>';
++ '<a href="https://www.youtube.com/watch?v=SrDSqODtEFM" class="btn btn-danger">Perdoname <i>Tutorial</i> por mi vida loca</a>';
 
 paragraphs['HEAL'] = scnBadge() + '-p-' + quote('Ora invece... Ho lasciato scivolare il mio odio. Ho voluto credere di poter guarire la gente di qui con le parole. Ed è colpa tua.')
 + '&Egrave; una mia impressione o state davvero già meglio?';
@@ -555,7 +555,7 @@ paragraphs['00Q0'] = prdBadge() + smmBadge() + '-p-' + quote('Avete un’idea st
 
 paragraphs['2385'] = smmBadge() + '-p-' + quote('Cesare? Se ne infischia. È stanco di lei. Non le prenderà alcun appartamento.')
 + 'È molto importante sistemare la casa prima che torni il Signor Cesare. Passare l’aspirapolvere, pulire i vetri, rimuovere la muffa e sistemare ogni cosa al suo posto. A proposito: dove son finite le ciabatte di Cesare? Bisogna ritrovarle al più presto, si arrabbia sempre quando non trova le sue ciabatte!-p-'
-+ 'Trova le ciabatte nella seguente immagine. Le coordinate del quadrante contenente le ciabatte ti permetteranno di accedere al prossimo paragrafo.'
++ 'Trova le ciabatte di Cesare nella seguente immagine, sapendo che si trovano vicino a Waldo. Le coordinate del quadrante contenente le ciabatte vi permetteranno di accedere al prossimo paragrafo.'
 + imgTransition('Ciabatte_noGrid.png', 'Ciabatte_withGrid.png');
 
 paragraphs['NIUW'] = img('Ciabatte.jpg') + '-p-Andate al paragrafo <code>LEG0</code>.';
@@ -683,7 +683,7 @@ paragraphs["9324"] = "Ora digita il codice <code>9432</code>.";
 paragraphs["9432"] = "Ora digita il codice <code>9142</code>.";
 paragraphs["9142"] = "Scusa, eh, ma fai tutto quello che ti viene detto?";
 
-paragraphs['0042'] = '42 è la risposta ad ogni domanda. Non lo sapevate? Provate a raccoglierla. Qualche punticino lo farete.';
+paragraphs['0042'] = '42 è la risposta ad ogni domanda.-p-Peccato che voi non siate in cerca di domande e risposte, ma di punti.';
 
 paragraphs['LSCM'] = smmBadge() + '-p-Grazie! finalmente qualcuno si ricorda di noi.<br>Solo perché Matteo e Ale non sono più i registi, dobbiamo trovarci lasciati fuori da questa caccia al tesoro? Siamo anche noi delle grandi produzioni, abbiamo solo avuto la sfortuna di non essere messe in scena per via del Coronavirus… ma almeno qui avremo il nostro spazio!-p-Come dite? Se possiamo farvi avere qualche punto?-p-Ahm, in realtà non abbiamo ricevuto alcuna indicazione in merito. Matteo dice che non eravamo ancora maturi a sufficienza per poter permettere ai giocatori di guadagnare dei punti. Fossi in voi, manderei un selfie con il dito medio all’account Instagram <code>@game_of_dice</code>. Penso possiate perdere <b>5</b> punti se lo farete, ma… noi vi ricorderemo per sempre per il vostro gesto.';
 
