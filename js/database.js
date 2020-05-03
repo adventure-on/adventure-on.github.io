@@ -574,7 +574,7 @@ paragraphs['LEG0'] = quote('Now and then I think of when we were together<br>lik
 paragraphs['WAIT'] = quote('Fragola.')
 + 'La prima metà del codice del Paragrafo finale di questo Mondo è: <code>6G**</code>';
 
-paragraphs['6116'] = quote('Panna.')
+paragraphs['WALL'] = quote('Panna.')
 + 'La seconda metà del codice del Paragrafo finale di questo Mondo è: <code>**PT</code>';
 
 paragraphs['6GPT'] = quote('- Poverina. Non ti avvilire così. Guarda che faccia che hai, sei tutta fredda, un pezzo di ghiaccio. Ma se non è successo niente. E tutto come è stato sempre. In questa nostra vita, è molto raro che succeda qualcosa di nuovo.<br>- Sì. È rarissimo. E anche quando succede qualcosa di nuovo, la vita non cambia. Rimane com\'è. Schifosa.')
