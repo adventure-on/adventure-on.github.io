@@ -201,13 +201,13 @@ paragraphs['0572'] = smmBadge() + prdBadge() + '-p-' + quote('Il pesce era fresc
 
 + 'Quando avete preparato il menù inviatelo al bot <code>produttore_GameBot</code>.';
 
-paragraphs['349C'] = smmBadge() + '-p-' + quote('Manca citazione') // TODO
+paragraphs['349C'] = smmBadge() + '-p-' + quote('«Il raffreddore». Mio cognato, dal lato paterno, aveva un cugino germano, lo zio materno del quale aveva un suocero di cui il nonno paterno aveva sposato in seconde nozze una giovane indegna, il cui fratello, nei suoi lunghi viaggi, aveva incontrato una ragazza della quale si era innamorato e dalla quale aveva avuto un figlio che sposò poi un’intrepida farmacista, la quale altro non era che la nipote di uno sconosciuto quartiermastro della Marina Britannica, il cui padre adottivo aveva una zia in grado di parlare correttamente lo spagnolo il creolo e l’acrilico, e che era, forse, una delle nipoti di un ingegnere morto in giovane età, nipote a sua volta di un proprietario di vigne dalle quali si ricava un vino, va detto, assai mediocre, ma che aveva un cugino, casalingo e sottotenente, il cui figlio aveva sposato una graziosissima signora, un po’ divorziata, il primo marito della quale era figlio di un vero patriota che aveva saputo educare le sue figlie nell\'ambizione di far fortuna, la quale era riuscita a sposare un fattorino che aveva conosciuto Rothschild e il cui fratello, dopo aver cambiato parecchi mestieri, si sposò ed ebbe una figlia, il cui bisnonno, gracilino, portava gli occhiali che gli aveva regalato un suo cugino, cognato di un portoghese, figlio naturale di un mugnaio, non troppo povero, il fratello di latte del quale aveva preso in moglie la figlia di un medico di campagna, a sua volta fratello di latte di un lattaio, a sua volta figlio naturale di un altro medico di campagna, sposato tre volte di seguito, e di cui la terza moglie era la figlia della migliore levatrice della regione e che, vedova di buonora, si era sposata con un vetraio pieno di zelo, il quale, alla figlia di un capostazione, aveva fatto un figlio destinato a fare la sua strada, e aveva sposato una venditrice di spazzature, il cui padre aveva un fratello, sindaco di una piccola città, che aveva preso in moglie una maestra bionda, il cugino della quale, pescatore con rete aveva preso in moglie un\'altra maestra bionda, chiamata Maria, il cui fratello aveva sposato un\’altra Maria, anche lei maestra bionda, Il cui padre era stato allevato nel Canada da una vecchia, che era nipote di un parroco, la nonna del quale, talvolta d’inverno, come capita a tutti, si buscava un raffreddore.')
 + 'Pausa.-p-Fermatevi un momento, rilassatevi, alzatevi dalla scrivania e fate due passi.-p-Poi però tornate qui e dirigetevi al Paragrafo <code>8GJJ</code>.';
 
-paragraphs['R11F'] = quote('Manca citazione') // TODO
-+ 'I due caratteri estremi del codice del Paragrafo finale di questo Mondo sono: <code>S**M</code>.';
+paragraphs['R11F'] = quote('Una volta, un altro bue domandò a un altro cane: non hai ingoiato la tua tromba? Scusa, rispose il cane, ma credevo di essere un elefante.')
++ 'I due caratteri più estremi del codice del Paragrafo finale di questo Mondo de <i>La Cantatrice Calva</i> sono: <code>S**M</code>.';
 
-paragraphs['8GJJ'] = quote('Manca citazione') // TODO
+paragraphs['8GJJ'] = quote('Un giovane vitello aveva mangiato troppe briciole di vetro. Di conseguenza fu costretto a partorire. Mise al mondo una vacca. Tuttavia, siccome il vitello era maschio, la vacca non poteva chiamarlo “mamma”. Essa d’altronde non poteva neppure chiamarlo “papà”, poiché il vitello era troppo piccino. Questi allora fu costretto ad arruolarsi in marina.')
 + 'I due caratteri medi del codice del Paragrafo finale di questo Mondo sono: <code>*BE*</code>.';
 
 paragraphs['SBEM'] = quote('- Non è di qua, ma è di là!<br>- Non è di qua, ma è di là!<br>- Non è di qua, ma è di là!<br>- Non è di qua, ma è d...')
@@ -358,8 +358,8 @@ paragraphs['8616'] = smmBadge() + '-p-' + quote('Voi, i dimenticati, gli abbando
 
 paragraphs['RYXM'] = smmBadge() + '-p-' + quote('Ah, che viaggio piacevole. E che bella fu la vostra ispirazione di venire qui, quando in Grecia ci sono più di cinquecento città con vini buoni, alberghi accoglienti e vie affollate. ‘Sta gente di montagna pare che non abbia mai visto un turista, dappertutto gli stessi gridi di spavento, lo stesso fuggi-fuggi. Puah.')
 + 'La piazza del mercato è decisamente sovraffollata, ma di mosche, non di uomini. Non si riesce praticamente a vedere alcunché. Difficile riuscire a trovare tesori rari all’interno di questo sciame di mosche. Tuttavia, se aveste la pazienza di soffermarvi per un momento con più attenzione, notereste una cosa importante: che tutte queste mosche sono accoppiate tra loro, tranne due, diverse da tutte le altre. Sapreste individuare quali sono?-p-'
-+ 'Accedete alla cartella <code>XXXX</code>.-p-' // TODO CARTELLA
-+ 'All’interno della cartella troverete una serie di immagini di mosche. Di ogni immagine esiste un’altra copia all’interno della cartella, con l’eccezione di due. Combinate i codici delle due immagini (seguendo l’ordine alfabetico) e otterrete il paragrafo per continuare la vostra ricerca.';
++ 'Accedete alla cartella <i>Entomology for Dummies</i> del Drammaturgo.-p-'
++ 'All’interno di una sottocartella troverete una serie di immagini di mosche. Di ogni immagine esiste un’altra copia all’interno della cartella, con l’eccezione di due. Combinate i codici delle due immagini (seguendo l’ordine alfabetico) e otterrete il paragrafo per continuare la vostra ricerca.';
 
 // Mosche sole
 paragraphs['E9P8'] = quote('- Devi andartene da questa città, sei in pericolo. Vuoi fuggire con me?<br>- No.<br>- Ti porterò a Corinto.<br>- Che ci farei io a Corinto?') + 'Ogni mosca, anche nella sofferenza e nella malattia, ha sempre un’altra mosca su cui fare affidamento. Così, il peso del dolore viene caricato su due spalle anziché su una. Ma due mosche son rimaste da sole. Chissà se nella vicendevole solitudine potranno trovare consolazione.-p-Procedete al Paragrafo <code>HD44</code>.';
@@ -434,10 +434,10 @@ paragraphs['HEAL'] = scnBadge() + '-p-' + quote('Ora invece... Ho lasciato scivo
 
 paragraphs['JEAN'] = quote('Ci siamo tutti? Bene. Prima sarà giudicata e bruciata, meglio sarà.')
 + 'Quanto disordine in questo teatro! C’è un gran traffico di persone che si muove avanti e indietro trasportando rami, tronchi, maschere, mantelli, strumenti musicali, fari, corde, locandine e molto altro ancora. Forse è il caso di dare una mano a qualcuno.-p-'
-+ 'Se vuoi chiedere informazioni a qualcuno su cosa stia succedendo, vai al Paragrafo <code>52WG</code>.<br>'
-+ 'Se vuoi aiutare a preparare l’Albero delle Fate, vai al Paragrafo <code>TR33</code>.<br>'
-+ 'Se vuoi aiutare a sistemare gli strumenti musicali, vai al Paragrafo <code>S1YS</code>.<br>'
-+ 'Se preferisci andartene in giro ad esplorare un po’, vai al Paragrafo <code>L1GH</code>.<br>';
++ 'Se volete chiedere informazioni a qualcuno su cosa stia succedendo, andate al Paragrafo <code>52WG</code>.<br>'
++ 'Se volete offrirvi come volontari/e, andate al Paragrafo <code>32FZ</code>.<br>'
++ 'Se volete aiutare a sistemare gli strumenti musicali, andate al Paragrafo <code>S1YS</code>.<br>'
++ 'Se preferite andarvene in giro ad esplorare un po’, andate al Paragrafo <code>L1GH</code>.<br>';
 
 paragraphs['52WG'] = prdBadge() + '-p-' + quote('Lo dico sempre io, non si riflette abbastanza!')
 + 'È stata fissata una nuova replica di Giovanna. Sfortunatamente il regista non è al momento raggiungibile per chiarire le informazioni fondamentali, si potrebbe chiedere agli attori. Ma c’è un po’ di confusione, le loro informazioni non combaciano.-p-'
@@ -464,9 +464,10 @@ paragraphs['52WG'] = prdBadge() + '-p-' + quote('Lo dico sempre io, non si rifle
 + '</ol>-p-'
 + 'Una volta che avete capito l’organizzazione della replica, inviate la soluzione al Produttore.';
 
+/*
 paragraphs['TR33'] = prdBadge() + smmBadge() + '-p-' + quote('- Dove sei stata?<br>- Ero nei campi.<br>- Anche io ero nei campi, ma sono tornato. Sono le sei.<br>- Ho perduto la nozione del tempo.')
 + 'MANCA LA PROVA.';
-// TODO PROva
+*/
 
 paragraphs['S1YS'] = prdBadge() + '-p-' + quote('- Smettetela di giocare con quel balocco, maestà, e sedetevi in maniera composta!<br>- Parliamoci chiaro, Arcivescovo. Volete che giochi o che governi?')
 + 'Sfortunatamente Guido ha fatto cadere il cassone contenente gli strumenti musicali. Potreste dargli una mano a sistemarlo? Purtroppo non c’è modo di sistemare gli strumenti se prima non sarete in grado di riconoscerli. Come fareste, d’altra parte, a sistemare la Kalimba nel posto della Kalimba, se non sapete nemmeno cosa sia una Kalimba?-p-'
@@ -498,7 +499,11 @@ paragraphs['N921'] = 'Ascoltando una terza volta, quello che capite non migliora
 paragraphs['E931'] = 'Per l\'ultima volta, ecco cosa sentite dai camerini degli attori:-p-'
 + img('abiura4.png');
 
-paragraphs['32FZ'] = 'TODO Doccia gelata';
+// Ice bucket challenge
+paragraphs['32FZ'] = smmBadge('Under my umbrella!')
++ '-p-<b>Nonono fermatevi!</b><br>Che cosa avete combinato? Non capite che qui tutto è in equilibrio precario?-p-Per favore, o vi spostate di qui e andate subito al Paragrafo <code>75VA</code>, oppure aiutate a testare la cascata.-p-...-p-'
++ 'Ancora qui?<br>Ottimo, lo prendo come un sì.-p-'
++ 'Una persona fra voi si metta lì al centro -sì esatto, proprio lì, perfetto- e chiedete al Social Media Manager di contattare l\'account Instagram <code>@game_of_dice</code>. Quando gli avrete mandato il messaggio "<i>Under my umbrella!</i>", io aprirò l\'acqua.';
 
 paragraphs['75VA'] = quote('- Guarda dritto davanti a sé?<br>- Sì, signore.')
 + '-p-Il primo carattere del codice del Paragrafo finale di questo Mondo è: <code>T***</code>.';
@@ -518,7 +523,7 @@ paragraphs['T4N9'] = quote('Bisognerà avere del coraggio, ne avrò tanto io.')
 paragraphs['RAIN'] = getFinalObjectParagraph('allodola', "Giovanna");
 
 
-paragraphs['W00D'] = scnBadge() + '-p-' + 'Un ottimo tronco, di ottima fattura.<br>Dove l\'avete recuperato?'; // TODO
+paragraphs['W00D'] = scnBadge() + '-p-' + 'Un ottimo tronco, di ottima fattura.<br>Dove l\'avete recuperato?';
 
 paragraphs['MISO'] = scnBadge() + '-p-' + 'Fantastico! Avete trovato nuove persone che possono darci una mano!-p-Non è meraviglioso quando ci si aiuta a vicenda?';
 
@@ -553,7 +558,7 @@ paragraphs['2385'] = smmBadge() + '-p-' + quote('Cesare? Se ne infischia. È sta
 + 'Trova le ciabatte nella seguente immagine. Le coordinate del quadrante contenente le ciabatte ti permetteranno di accedere al prossimo paragrafo.'
 + imgTransition('Ciabatte_noGrid.png', 'Ciabatte_withGrid.png');
 
-paragraphs['NIUW'] = img('Ciabatte.jpg') + '-p-Andate al paragrafo <code>2385</code>.';
+paragraphs['NIUW'] = img('Ciabatte.jpg') + '-p-Andate al paragrafo <code>LEG0</code>.';
 
 paragraphs['LEG0'] = quote('Now and then I think of when we were together<br>like when you said that you were so happy you could die<br>told myself that you were right for me<br>but I felt so lonely in your company')
 + 'Che succede? Tutto cambia, nulla cambia. Quelli che fino a poco fa non erano altro che cubi bianchi, possono improvvisamente diventare poltrone e divani. E tavoli, e pietre e molto altro ancora. Bisogna solo mettere ogni cosa al suo posto.-p-'
