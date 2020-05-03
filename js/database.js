@@ -277,7 +277,7 @@ paragraphs['9WPQ'] = prdBadge() + smmBadge() + '-p-' + quote('Mio padre, il cons
 paragraphs['BE7E'] = smmBadge() + '-p-'
 + quote('Venga, signora Rose. Bisogna che si calmi, ecco tutto.')
 + 'Un buon personale sanitario deve sempre tenere monitorato uno degli organi più importanti, soprattutto nei pazienti che tendono ad agitarsi molto: il <b>cuore</b>.-p-Trovate, per terra, questo strano foglio. Cosa ci farà per terra?'
-+ img('ecgMatilda.jpg');
++ img('Elettrocardiogramma.jpg');
 
 paragraphs['9786'] = smmBadge() + '-p-' + quote('Manca citazione')
 + 'Quest\'ala dell\'edificio non sembra essere troppo frequentata...-p-'
